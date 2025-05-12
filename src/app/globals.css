@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.gradient-border {
+  display: inline-block; /* important for border-radius on <p> */
+  border: 1px solid;
+  border-image-source: linear-gradient(180deg, #9334be 0%, #441858 100%);
+  border-image-slice: 1;
+  padding: 2px 10px; /* give it some space */
+  border-radius: 2rem;
+}
