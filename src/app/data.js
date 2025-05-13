@@ -65,3 +65,28 @@ export const socialIcons = [
   "/icons/insta.svg",
   "/icons/yt.svg",
 ];
+// featurePanels.js
+export const featurePanels = [
+  {
+    id: "trusted-suppliers",
+    title: "Verified and Trusted Suppliers",
+    description:
+      "We ensure that all suppliers go through a strict verification process before being listed on our platform.",
+    image: "/images/trusted.png", // Path to your badge image
+  },
+  {
+    id: "secure-payment",
+    title: "Secure Payment & Transactions",
+    description:
+      "Integrated payment gateways like Amazon Payment Services and 2Checkout provide a safe and efficient way to make transactions.",
+    image: "/images/payment.png", // Path to your shield icon
+  },
+  {
+    id: "building-materials",
+    title: "Wide Range of Building Materials",
+    description:
+      "Users can find everything they need, from cement, steel, and bricks to electrical fittings and finishing materials.",
+
+    image: "/images/material.png", // Path to your materials image
+  },
+];

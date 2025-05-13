@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { QuotationModal } from "../Modals/QuotationModal";
 
-const ProductCard = ({ title, image, description }) => {
+const ProductCard = ({ title, image, description, prodcut }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const openModal = () => setIsModalOpen(true);
@@ -20,12 +20,14 @@ const ProductCard = ({ title, image, description }) => {
         />
         <h3 className="font-semibold text-left mb-2">{title}</h3>
         <p className="text-lg text-[#777777] mb-4">{description}</p>
-        <button
-          className="mt-auto bg-[#354EF3] text-white text-sm px-2 py-2 rounded-3xl h-14 w-1/2 mx-auto cursor-pointer"
-          onClick={openModal}
-        >
-          Request Quotation now
-        </button>
+        {prodcut && (
+          <button
+            className="mt-auto bg-[#354EF3] text-white text-sm px-2 py-2 rounded-3xl h-14 w-1/2 mx-auto cursor-pointer"
+            onClick={openModal}
+          >
+            Request Quotation now
+          </button>
+        )}
       </div>
       <QuotationModal isOpen={isModalOpen} onClose={closeModal} />
     </>

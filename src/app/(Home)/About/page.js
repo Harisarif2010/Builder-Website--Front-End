@@ -1,5 +1,5 @@
 import React from "react";
-import products from "@/app/data";
+import { featurePanels } from "@/app/data";
 import ProductCard from "../../../../Components/Cards/ProductCard";
 import Header from "../../../../Components/Layout/Header";
 
@@ -11,16 +11,16 @@ const Products = () => {
         text="Explore durable and cost - effective materials for your construction projects"
       />
       <h1 className=" text-[#000000] text-center font-bold text-5xl p-3 my-4">
-        Products
+        Who we are
       </h1>
       <div className="p-4 grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-        {products.map((product, index) => (
+        {featurePanels.map((feature, index) => (
           <ProductCard
             key={index}
-            title={product.title}
-            image={product.image}
-            description={product.description}
-            prodcut={true}
+            title={feature.title}
+            image={feature.image}
+            description={feature.description}
+            prodcut={false}
           />
         ))}
       </div>
