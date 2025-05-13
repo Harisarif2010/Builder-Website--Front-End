@@ -90,3 +90,11 @@ export const featurePanels = [
     image: "/images/material.png", // Path to your materials image
   },
 ];
+
+export const categories = [
+  "Interior Finishes",
+  "ventilation and air conditioning",
+  "Plumbing",
+  "Chen Fitting",
+  "Structure & Concrete work",
+];
