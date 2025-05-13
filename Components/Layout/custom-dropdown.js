@@ -34,7 +34,7 @@ export default function CustomDropdown({ label, items, className = "" }) {
   }, []);
 
   return (
-    <div className={`relative ${className}`} ref={dropdownRef}>
+    <div className={`relative ${className} eounded-[13px]`} ref={dropdownRef}>
       <button
         onClick={toggleDropdown}
         className="flex items-center text-white hover:text-gray-200 focus:outline-none"

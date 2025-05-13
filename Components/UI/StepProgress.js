@@ -19,7 +19,7 @@ const StepProgress = ({ step1Icon, step2Icon, verified }) => {
         </div>
       </div>
       {/* Dotted Line */}
-      <div>
+      <div className="mb-8">
         <Image
           src={`${verified ? "/images/filledline.png" : "/images/line.svg"}`}
           alt="Basic Info"

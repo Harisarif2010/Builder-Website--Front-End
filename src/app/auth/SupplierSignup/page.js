@@ -1,5 +1,6 @@
 import React from "react";
 import StepProgress from "../../../../Components/UI/StepProgress";
+import { ArrowRight } from "lucide-react";
 
 const SupplierSignup = () => {
   return (
@@ -89,8 +90,8 @@ const SupplierSignup = () => {
         {/* Password */}
       </div>
       <div className="w-full flex justify-end items-center gap-4">
-        <button className="bg-[#354EF3] text-white text-[26px] font-semibold w-1/12 p-2 rounded-[18px] h-14">
-          Next
+        <button className="bg-blue-600 text-white text-base sm:text-lg md:text-xl font-semibold w-full sm:w-auto px-4 py-2 sm:px-6 sm:py-3 rounded-full flex items-center gap-2 justify-center">
+          Next <ArrowRight color="white" />
         </button>
         <span className="text-[#7B7B7B] text-xl font-medium">
           ( Proceed to Step 2 )

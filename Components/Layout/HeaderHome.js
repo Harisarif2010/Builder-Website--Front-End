@@ -7,7 +7,7 @@ import { Bell, Globe } from "lucide-react";
 import CustomDropdown from "./custom-dropdown";
 import MobileDropdown from "./mobile-dropdown";
 
-export default function Header({ heading, text }) {
+export default function HeaderHome() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
@@ -178,11 +178,8 @@ export default function Header({ heading, text }) {
       {/* Hero Content */}
       <div className="relative z-10 container mx-auto px-4 py-8 md:py-12 text-center max-w-2xl">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4">
-          {heading}
+          Save time and money, get quotes from trusted suppliers
         </h1>
-        <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto">
-          {text}
-        </p>
       </div>
     </header>
   );

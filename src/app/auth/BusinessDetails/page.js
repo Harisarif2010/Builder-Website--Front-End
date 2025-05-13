@@ -1,3 +1,4 @@
+import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 import React from "react";
 
@@ -136,8 +137,8 @@ const BusinessDetails = () => {
       <div className="w-full flex justify-around items-center my-8">
         {/* Left Side: Back + Text */}
         <div className="flex items-center gap-3">
-          <button className="bg-[#354EF3] text-white text-[20px] font-semibold px-6 py-3 rounded-[18px] h-14">
-            Back
+          <button className="bg-blue-600 text-white text-base sm:text-lg md:text-xl font-semibold w-full sm:w-auto px-4 py-2 sm:px-6 sm:py-3 rounded-full flex items-center gap-2 justify-center">
+            Back <ArrowLeft color="white" />
           </button>
           <span className="text-[#7B7B7B] text-lg font-medium">
             ( Return to Step 1 )
