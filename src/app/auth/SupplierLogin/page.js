@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
-const Login = () => {
+const SupplierLogin = () => {
   const [formData, setFormData] = useState({
     email: "",
     password: "",
@@ -16,14 +16,14 @@ const Login = () => {
       <div className="w-1/2  relative rounded-r-[18px]  ">
         <Image
           alt="main"
-          src="/images/Login.jpg"
+          src="/images/worker.png"
           fill
           className="rounded-r-[18px]"
         />
 
         <div
-          className="absolute inset-0  mix-blend-multiply opacity-80 pointer-events-none rounded-r-[18px] "
           style={{ background: " rgba(53, 78, 243, 0.46) " }}
+          className="absolute inset-0  mix-blend-multiply opacity-80 pointer-events-none rounded-r-[18px]"
         ></div>
       </div>
 
@@ -99,4 +99,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default SupplierLogin;
