@@ -5,7 +5,7 @@ import React from "react";
 const Upload = () => {
   return (
     <div>
-      <div className="flex flex-col p-5">
+      <div className="grid gap-x-4 sm:gap-x-5 gap-y-5 sm:gap-y-6 grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 p-3">
         <label className="border border-dashed border-4-[#848484] rounded-[22px] h-36 px-5 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
           <input type="file" className="hidden" />
           <div className="flex flex-col items-center justify-center">

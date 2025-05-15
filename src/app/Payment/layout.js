@@ -15,7 +15,7 @@ export default function Layout({ children }) {
         heading="Secure & Hassle - Free Payment"
         text="Complete your transactions safely with our integrated payment gateway, real time confirmation"
       />
-      <h1 className="text-[#000000] font-bold text-5xl">
+      <h1 className="text-[#000000] font-bold text-5xl text-center">
         Select Payment Method
       </h1>
       <main>{children}</main>
