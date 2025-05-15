@@ -1,0 +1,42 @@
+import { ArrowRight } from "lucide-react";
+import Image from "next/image";
+import React from "react";
+
+const Upload = () => {
+  return (
+    <div>
+      <div className="flex flex-col p-5">
+        <label className="border border-dashed border-4-[#848484] rounded-[22px] h-36 px-5 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
+          <input type="file" className="hidden" />
+          <div className="flex flex-col items-center justify-center">
+            <Image
+              src="/images/cloud.svg"
+              width={53}
+              height={49}
+              alt="Upload"
+              className="p-2 "
+            />
+            <span className="text-[#000000] text-center text-lg font-medium">
+              Upload RFQ File ( PDF, Excel, Docs)
+            </span>
+            <span className="text-[#A9ACB4] text-center text-lg font-medium p-2">
+              Drag and drop files here, or click to upload
+            </span>
+          </div>
+        </label>
+        <div className="w-full flex justify-start items-center my-8">
+          <div className="flex flex-row gap-x-2">
+            <button className="bg-white text-[#354EF3] text-[22px] font-semibold px-6 py-3 border border-[#354EF3] rounded-[26px] h-14 ">
+              Add Item
+            </button>
+            <button className="bg-[#354EF3] text-white text-[22px] font-semibold px-6 py-3 rounded-[26px] h-14 flex items-center gap-2 justify-center cursor-pointer">
+              Next Step <ArrowRight size={18} className="ml-1" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Upload;

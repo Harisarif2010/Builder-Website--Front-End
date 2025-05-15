@@ -64,8 +64,7 @@ export default function Header({ heading, text }) {
 
           {/* Right Side Icons */}
           <div className="flex items-center space-x-4">
-            <button className="flex items-center px-4 py-2 bg-white text-black rounded-md border border-gray-300 hover:bg-gray-100 transition-colors">
-              <span className="hidden sm:inline mr-1">Login</span>
+            <button className="flex items-center px-4 py-2 bg-white text-black rounded-[22px] border border-gray-300 hover:bg-gray-100 transition-colors">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -81,6 +80,7 @@ export default function Header({ heading, text }) {
                 <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
                 <circle cx="12" cy="7" r="4" />
               </svg>
+              <span className="hidden sm:inline mr-1">Login</span>
             </button>
             <button className="text-white p-2 rounded-full hover:bg-white/10">
               <Bell className="h-5 w-5" />
