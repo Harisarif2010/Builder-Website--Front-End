@@ -22,10 +22,10 @@ const ProductCard = ({ title, image, description, prodcut }) => {
         <p className="text-lg text-[#777777] mb-4">{description}</p>
         {prodcut && (
           <button
-            className="mt-auto bg-[#354EF3] text-white text-sm px-2 py-2 rounded-3xl h-14 w-1/2 mx-auto cursor-pointer"
+            className="mt-auto bg-[#354EF3] text-white text-sm px-2 py-2 rounded-[35px] h-14 w-1/2 mx-auto cursor-pointer"
             onClick={openModal}
           >
-            Request Quotation now
+            Request a Quote
           </button>
         )}
       </div>

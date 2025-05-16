@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import PaymentButton from "../../../../Components/Button/PaymentButton";
+import Address from "../../../../Components/UI/Address";
 
 const Bank = () => {
   return (
@@ -77,6 +78,9 @@ const Bank = () => {
             </div>
           </label>
         </div>
+      </div>
+      <div className="flex flex-col ml-4">
+        <Address />
       </div>
       <div className="flex flex-row justify-center my-8">
         {" "}

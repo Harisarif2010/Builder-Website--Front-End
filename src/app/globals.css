@@ -34,3 +34,7 @@ body {
   padding: 2px 10px; /* give it some space */
   border-radius: 2rem;
 }
+
+input[type="radio"]:checked:after {
+  accent-color: "#354EF3";
+}
