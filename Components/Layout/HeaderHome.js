@@ -6,6 +6,7 @@ import Link from "next/link";
 import { Bell, Globe } from "lucide-react";
 import CustomDropdown from "./custom-dropdown";
 import MobileDropdown from "./mobile-dropdown";
+import SearchBar from "../UI/SearchBar";
 
 export default function HeaderHome() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -180,6 +181,12 @@ export default function HeaderHome() {
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-4">
           Save time and money, get quotes from trusted suppliers
         </h1>
+        <SearchBar placeholder="Search Building Material" />
+        <div className="flex justify-center mt-8">
+          <button className="w-1/3 bg-[#354EF3] text-white py-2 rounded-[35px] font-bold">
+            Attach RFQ File
+          </button>
+        </div>
       </div>
     </header>
   );

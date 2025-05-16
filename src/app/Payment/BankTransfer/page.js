@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import PaymentButton from "../../../../Components/Button/PaymentButton";
 
 const Bank = () => {
   return (
@@ -76,7 +77,10 @@ const Bank = () => {
             </div>
           </label>
         </div>
-        <div></div>
+      </div>
+      <div className="flex flex-row justify-center my-8">
+        {" "}
+        <PaymentButton />
       </div>
     </div>
   );

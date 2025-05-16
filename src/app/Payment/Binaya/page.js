@@ -1,6 +1,6 @@
-import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
+import PaymentButton from "../../../../Components/Button/PaymentButton";
 
 const Binaya = () => {
   return (
@@ -107,6 +107,10 @@ const Binaya = () => {
           className="w-full px-4 py-2 h-60 border border-[#6A6A6A] rounded-[22px] focus:outline-none focus:ring-2 focus:ring-gray-200 placeholder-[#787878] placeholder:text-2xl"
           required
         />
+      </div>
+      <div className="flex flex-row justify-center my-8">
+        {" "}
+        <PaymentButton />
       </div>
     </div>
   );

@@ -98,3 +98,51 @@ export const categories = [
   "Chen Fitting",
   "Structure & Concrete work",
 ];
+
+export const brands = [
+  {
+    name: "JDFF",
+    label: "JDFF BRANDS",
+    image: "/images/jdff.png",
+  },
+  {
+    name: "LUMINUS",
+    label: "LUMINUS BRANDS",
+    image: "/images/luminius.png",
+  },
+  {
+    name: "Schreder",
+    label: "Schreder BRANDS",
+    image: "/images/schreder.png",
+  },
+  {
+    name: "1NUO",
+    label: "1NUO BRANDS",
+    image: "/images/1nuo.png",
+  },
+  {
+    name: "2M KABLO",
+    label: "2M KABLO BRANDS",
+    image: "/images/2mkablo.png",
+  },
+  {
+    name: "2VV",
+    label: "2VV BRANDS",
+    image: "/images/2vv.png",
+  },
+  {
+    name: "100TONG",
+    label: "100TONG BRANDS",
+    image: "/images/100tong.png",
+  },
+  {
+    name: "3M",
+    label: "3MM BRANDS",
+    image: "/images/3m.png",
+  },
+  {
+    name: "7 Stars",
+    label: "7 Stars BRANDS",
+    image: "/images/7stars.png",
+  },
+];

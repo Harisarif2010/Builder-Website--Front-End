@@ -10,7 +10,7 @@ const ProductCard = ({ title, image, description, prodcut }) => {
   const closeModal = () => setIsModalOpen(false);
   return (
     <>
-      <div className="bg-[#F1F3FC] rounded-[35px] p-4 flex flex-col">
+      <div className="bg-[#F1F3FC] rounded-[35px] p-4 flex flex-col  border border-[#B0B0B0]">
         <Image
           src={image}
           alt={title}
