@@ -146,3 +146,86 @@ export const brands = [
     image: "/images/7stars.png",
   },
 ];
+
+export const data = [
+  { id: 1023, item: "Steel", supplier: "John Doe", status: "Approve" },
+  { id: 1024, item: "Wood", supplier: "Mark Smith", status: "Pending" },
+  { id: 1025, item: "Sheets", supplier: "Sarah", status: "Pending" },
+  { id: 1026, item: "Ladders", supplier: "Emily Brown", status: "Pending" },
+  { id: 1027, item: "Steel", supplier: "Mark Smith", status: "Approve" },
+  { id: 1028, item: "Steel", supplier: "John Smith", status: "Approve" },
+  { id: 1029, item: "Wood", supplier: "John Doe", status: "Approve" },
+];
+export const suppliers = [
+  {
+    category: "Global Supplier",
+    quoteId: "#1023",
+    productName: "Wood",
+    price: "$200",
+    discount: "5%",
+    delivery: "4 Days",
+    rating: 2.5,
+  },
+  {
+    category: "Material Supplier",
+    quoteId: "#1024",
+    productName: "Steel",
+    price: "$150",
+    discount: "10%",
+    delivery: "5 Days",
+    rating: 3.5,
+  },
+  {
+    category: "Building Suppliers",
+    quoteId: "#1025",
+    productName: "Cement",
+    price: "$250",
+    discount: "15%",
+    delivery: "7 Days",
+    rating: 4.5,
+  },
+];
+export const orders = [
+  {
+    quoteId: "1023",
+    date: "1 March, 2025",
+    supplier: "John Doe",
+    status: "Shipped",
+  },
+  {
+    quoteId: "1024",
+    date: "2 March, 2025",
+    supplier: "Mark Smith",
+    status: "Pending",
+  },
+  {
+    quoteId: "1025",
+    date: "2 March, 2025",
+    supplier: "Sarah",
+    status: "Pending",
+  },
+  {
+    quoteId: "1026",
+    date: "2 March, 2025",
+    supplier: "Emily Brown",
+    status: "Pending",
+  },
+  {
+    quoteId: "1027",
+    date: "2 March, 2025",
+    supplier: "Mark Smith",
+    status: "Shipped",
+  },
+  {
+    quoteId: "1028",
+    date: "2 March, 2025",
+    supplier: "John Smith",
+    status: "Shipped",
+  },
+  {
+    quoteId: "1029",
+    date: "2 March, 2025",
+    supplier: "John Doe",
+    status: "Shipped",
+  },
+];
