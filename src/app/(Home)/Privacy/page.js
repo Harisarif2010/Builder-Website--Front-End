@@ -8,12 +8,14 @@ const Privacy = () => {
         heading="Your Privacy our Commitment"
         text="We value your privacy and are committed to protecting your personal data. Learn how we collect, use, and safeguard your information."
       />
-      <div className="bg-white w-full h-auto my-5 ">
-        <div className="mx-auto p-8">
-          <h1 className=" text-[#000000] text-center font-bold text-5xl p-3 my-4">
+
+      <div className="bg-white w-full my-5">
+        <div className=" px-4 sm:px-6   py-8">
+          <h1 className="text-[#000000] text-center font-bold text-3xl sm:text-4xl md:text-5xl p-3 mb-6">
             Privacy Policy
-          </h1>{" "}
-          <h3 className="text-[#000000] text-3xl font-normal ">
+          </h1>
+
+          <h3 className="text-[#767676] text-lg sm:text-xl md:text-2xl font-normal leading-relaxed mb-6">
             At Builder website, we prioritize your privacy and are committed to
             protecting your personal data. We collect essential information such
             as your name, email, contact details, and securely processed payment
@@ -34,16 +36,19 @@ const Privacy = () => {
             available via email or live chat to assist you. By continuing to use
             our platform, you agree to our Privacy Policy. You can review the
             full details by clicking the{" "}
-            <span className="text-[var(--primary-blue)]">
-              "Read Full Privacy Policy link."{" "}
+            <span className="text-[var(--primary-blue)] underline cursor-pointer">
+              "Read Full Privacy Policy link."
             </span>
           </h3>
-          <h3 className="text-[#000000] text-3xl font-normal ">Contact Us</h3>
-          <span className="text-[#000000] text-3xl font-normal ">
+
+          <h3 className="text-[#000000] text-xl sm:text-2xl md:text-3xl font-semibold mt-8 mb-2">
+            Contact Us
+          </h3>
+          <p className="text-[#000000] text-base sm:text-lg md:text-xl font-normal leading-relaxed">
             If you have any questions about this Privacy Policy, the practices
             of this Website, or your dealings with this Website, please contact
-            us at (Email) or alternatively by website:
-          </span>
+            us at (Email) or alternatively by website.
+          </p>
         </div>
       </div>
     </div>

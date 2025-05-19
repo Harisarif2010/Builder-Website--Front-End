@@ -157,14 +157,14 @@ export default function Header({ heading, text }) {
                 onItemClick={() => setIsMenuOpen(false)}
               />
               <Link
-                href="/about"
+                href="/About"
                 className="text-white hover:text-gray-200"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About Us
               </Link>
               <Link
-                href="/contact"
+                href="/Contact"
                 className="text-white hover:text-gray-200"
                 onClick={() => setIsMenuOpen(false)}
               >
