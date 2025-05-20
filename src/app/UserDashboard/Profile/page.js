@@ -1,13 +1,18 @@
 import { Pen } from "lucide-react";
 import Image from "next/image";
 import React from "react";
+import { roboto } from "@/app/fonts";
 
 const Profile = () => {
   return (
-    <>
+    <div className={roboto.className}>
       <h3 className="text-[#3B4758] text-2xl font-bold px-3 py-1">Profile</h3>
       <div className="bg-white rounded-[22px] p-3">
-        <div className="grid gap-x-4 sm:gap-x-5 gap-y-5 sm:gap-y-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">
+        <div
+          className={
+            "grid gap-x-4 sm:gap-x-5 gap-y-5 sm:gap-y-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 "
+          }
+        >
           {/* Full Name */}
           <div className="flex flex-col">
             <label className="text-black font-medium text-lg sm:text-xl md:text-[22px] mb-2 ml-1">
@@ -154,7 +159,7 @@ const Profile = () => {
           </div>
           <div className="flex flex-col mt-3">
             <label className="text-[#000000] font-medium text-2xl mb-2 ml-1">
-              Tax Registration Certificatesssssss
+              Tax Registration Certificates
             </label>
             <label className="border border-[#8C8C8C] rounded-[26px] h-36 px-5 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
               <input type="file" className="hidden" />
@@ -193,7 +198,7 @@ const Profile = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

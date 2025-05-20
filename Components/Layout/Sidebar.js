@@ -39,16 +39,16 @@ const Sidebar = ({ closeSidebar }) => {
                   <div
                     className={`flex items-center  px-4  py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium my-3  ${
                       isActive("/UserDashboard")
-                        ? "bg-white text-[#000176] mx-3 w-1/2"
+                        ? "bg-white text-[#000176] "
                         : "text-white mx-3"
                     }`}
                   >
                     <div className="mr-3 w-5 h-5 relative">
                       <Image
                         src={
-                          isActive("/UserDashboard/")
+                          isActive("/UserDashboard")
                             ? "/icons/dashboardblue.svg"
-                            : "/icons/dashboard.svg"
+                            : "/icons/dashboard.png"
                         }
                         alt="Dashboard icon"
                         width={20}

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { ArrowLeft } from "lucide-react";
 import React from "react";
 
 const SupplierVerify = () => {
@@ -57,11 +57,11 @@ const SupplierVerify = () => {
       </div>
 
       {/* Footer Buttons */}
-      <div className="w-full flex justify-around items-center my-8">
+      <div className="w-full flex justify-between items-center my-8">
         {/* Left Side: Back + Text */}
         <div className="flex items-center gap-3">
-          <button className="bg-[#354EF3] text-white text-[20px] font-semibold px-6 py-3 rounded-[18px] h-14">
-            Back
+          <button className="bg-[#354EF3] text-white text-[26px] font-semibold px-6  rounded-[18px] h-10 flex items-center ">
+            <ArrowLeft size={25} className="ml-1" /> Back
           </button>
           <span className="text-[#7B7B7B] text-lg font-medium">
             ( Return to Step 1 )
@@ -69,7 +69,7 @@ const SupplierVerify = () => {
         </div>
 
         {/* Right Side: Submit */}
-        <button className="bg-[#354EF3] text-white text-[20px] font-semibold px-6 py-3 rounded-[18px] h-14 w-1/12">
+        <button className="bg-[#354EF3] text-white text-[26px] font-semibold px-3 rounded-[18px] h-10   ">
           Submit
         </button>
       </div>

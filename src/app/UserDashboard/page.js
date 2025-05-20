@@ -1,9 +1,11 @@
 "use client";
 import { Bell } from "lucide-react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 
 const Dashboard = () => {
+  const router = useRouter();
   const [data] = useState({
     pendingQuotes: {
       count: 48,
@@ -30,7 +32,12 @@ const Dashboard = () => {
         <h3 className="text-[#3B4758] text-2xl font-bold  py-1">Dashboard</h3>
         <div className="flex  gap-x-3">
           {/* Back Button */}
-          <button className="flex items-center justify-center text-[#354EF3] text-[20px] font-semibold px-3 py-3 border border-[#354EF3] rounded-[22px] h-12">
+          <button
+            onClick={() => {
+              router.push("/UserDashboard/InviteSupplier");
+            }}
+            className="flex items-center justify-center text-[#354EF3] text-[20px] font-semibold px-3 py-3 border border-[#354EF3] rounded-[22px] h-12 cursor-pointer"
+          >
             Invite New Supplier
           </button>
           <button className="flex items-center justify-center bg-[#000176] text-white text-[20px] font-semibold px-3 py-3 rounded-[22px] h-12">

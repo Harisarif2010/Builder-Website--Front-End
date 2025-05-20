@@ -1,21 +1,6 @@
-import { redirect } from "next/navigation";
-
-import Image from "next/image";
-
-import { Poppins, Inter } from "next/font/google";
-import Link from "next/link";
 import Sidebar from "../../../Components/Layout/Sidebar";
 import { Bell, Settings, ShoppingCart } from "lucide-react";
-
-const poppins = Poppins({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
-
-const inter = Inter({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-});
+import { poppins, roboto, inter } from "../fonts";
 
 export default function RootLayout({ children }) {
   return (
