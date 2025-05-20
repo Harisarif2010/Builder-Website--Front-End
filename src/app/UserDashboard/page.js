@@ -38,10 +38,10 @@ const Dashboard = () => {
           </button>
         </div>
       </div>
-      <div className="grid gap-x-4 sm:gap-x-5 gap-y-5 sm:gap-y-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">
+      <div className="grid gap-x-4 sm:gap-x-5 gap-y-5 sm:gap-y-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 py-4 px-4">
         <div className="bg-white rounded-[13px] px-3">
           <div className="flex justify-between pb-3 pt-6">
-            <h3 className="text-[#586A84] text-[14px] font-semibold">
+            <h3 className="text-[#586A84] text-[14px] font-semibold ">
               Pending Quote Requests
             </h3>
             <div className="bg-[#354EF3] flex justify-center items-center rounded-md h-9 w-9">

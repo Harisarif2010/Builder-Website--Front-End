@@ -7,15 +7,10 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
-const Sidebar = () => {
-  // const [petId, setPetId] = useState(null);
+const Sidebar = ({ closeSidebar }) => {
   const router = useRouter();
   const pathname = usePathname();
 
-  // useEffect(() => {
-  //   const id = localStorage.getItem("petId");
-  //   setPetId(id);
-  // }, []);
   const isActive = (path) => pathname === path;
 
   return (
@@ -39,20 +34,20 @@ const Sidebar = () => {
           {/* MENU Section */}
           <div className="mb-6">
             <ul>
-              <li className="mb-6">
-                <Link href="/Dashboard">
+              <li className="mb-6 mx-6">
+                <Link href="/UserDashboard/">
                   <div
-                    className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium my-3  ${
-                      isActive("/Dashboard")
-                        ? "bg-white text-[#000176] mx-3"
+                    className={`flex items-center  px-4  py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium my-3  ${
+                      isActive("/UserDashboard")
+                        ? "bg-white text-[#000176] mx-3 w-1/2"
                         : "text-white mx-3"
                     }`}
                   >
                     <div className="mr-3 w-5 h-5 relative">
                       <Image
                         src={
-                          isActive("/Dashboard")
-                            ? "/icons/dashboard.svg"
+                          isActive("/UserDashboard/")
+                            ? "/icons/dashboardblue.svg"
                             : "/icons/dashboard.svg"
                         }
                         alt="Dashboard icon"
@@ -65,7 +60,7 @@ const Sidebar = () => {
                   </div>
                 </Link>
               </li>
-              <li className="mb-6">
+              <li className="mb-6 mx-6">
                 <Link href="/UserDashboard/Profile">
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
@@ -78,7 +73,7 @@ const Sidebar = () => {
                       <Image
                         src={
                           isActive("/UserDashboard/Profile")
-                            ? "/icons/profile.svg"
+                            ? "/icons/profileblue.svg"
                             : "/icons/profile.svg"
                         }
                         alt="Pet Profile icon"
@@ -91,7 +86,7 @@ const Sidebar = () => {
                   </div>
                 </Link>
               </li>
-              <li className="mb-6">
+              <li className="mb-6 mx-6">
                 <Link href="/UserDashboard/Quotation">
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
@@ -117,7 +112,7 @@ const Sidebar = () => {
                   </div>
                 </Link>
               </li>
-              <li className="mb-6">
+              <li className="mb-6 mx-6">
                 <Link href="/UserDashboard/Orders">
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
@@ -130,10 +125,9 @@ const Sidebar = () => {
                       <Image
                         src={
                           isActive("/UserDashboard/Orders")
-                            ? "/icons/orders.svg"
+                            ? "/icons/orderblue.svg"
                             : "/icons/orders.svg"
                         }
-                        key={isActive ? "health" : "feeding"}
                         alt="Feeding Schedule icon"
                         width={20}
                         height={20}
@@ -144,7 +138,7 @@ const Sidebar = () => {
                   </div>
                 </Link>
               </li>
-              <li className="mb-6">
+              <li className="mb-6 mx-6">
                 <Link href="/UserDashboard/Payment">
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
@@ -158,10 +152,10 @@ const Sidebar = () => {
                         // src="/icons/medication.png"
                         src={
                           isActive("/UserDashboard/Payment")
-                            ? "/icons/payment.svg"
+                            ? "/icons/paymentblue.svg"
                             : "/icons/payment.svg"
                         }
-                        alt="Medication icon"
+                        alt="Payment icon"
                         width={20}
                         height={20}
                         className="object-contain"
@@ -171,7 +165,7 @@ const Sidebar = () => {
                   </div>
                 </Link>
               </li>
-              <li className="mb-6">
+              <li className="mb-6 mx-6">
                 <Link href="/UserDashboard/Help">
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
@@ -184,13 +178,8 @@ const Sidebar = () => {
                       <Image
                         src={
                           isActive("/UserDashboard/Help")
-                            ? "/icons/help.svg"
+                            ? "/icons/helpblue.svg"
                             : "/icons/help.svg"
-                        }
-                        key={
-                          isActive
-                            ? "/icons/HealthMonitoring.svg"
-                            : "/icons/feeding.svg"
                         }
                         alt="Good Day/Bad Day icon"
                         width={20}
@@ -201,7 +190,7 @@ const Sidebar = () => {
                   </div>
                 </Link>
               </li>
-              <li className="mb-6">
+              <li className="mb-6 mx-6">
                 <Link href="/UserDashboard/Chat ">
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
@@ -214,7 +203,7 @@ const Sidebar = () => {
                       <Image
                         src={
                           isActive("/UserDashboard/Chat")
-                            ? "/icons/chat.svg"
+                            ? "/icons/chatblue.svg"
                             : "icons/chat.svg"
                         }
                         alt="Daily"

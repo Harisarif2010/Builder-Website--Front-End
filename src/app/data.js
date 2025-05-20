@@ -229,3 +229,37 @@ export const orders = [
     status: "Shipped",
   },
 ];
+export const invoices = [
+  {
+    item: "Steel",
+    invoiceId: "INV001",
+    amount: "$500",
+    dueDate: "1 March, 2025",
+    status: "Pending",
+    action: "Pay Now",
+  },
+  {
+    item: "Wood",
+    invoiceId: "INV002",
+    amount: "$1000",
+    dueDate: "2 March, 2025",
+    status: "Completed",
+    action: "",
+  },
+  {
+    item: "Sheets",
+    invoiceId: "INV003",
+    amount: "$1500",
+    dueDate: "2 March, 2025",
+    status: "Completed",
+    action: "",
+  },
+  {
+    item: "Cement",
+    invoiceId: "INV004",
+    amount: "$2000",
+    dueDate: "2 March, 2025",
+    status: "Completed",
+    action: "",
+  },
+];
