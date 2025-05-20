@@ -1,13 +1,10 @@
 "use client";
 
-import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
-import { useRouter } from "next/navigation";
-
-const Sidebar = () => {
-  const router = useRouter();
+const SupplierSidebar = () => {
   const pathname = usePathname();
 
   const isActive = (path) => pathname === path;
@@ -222,4 +219,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default SupplierSidebar;

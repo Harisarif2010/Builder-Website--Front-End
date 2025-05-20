@@ -18,7 +18,7 @@ const Permisson = () => {
         <div className="grid gap-x-4 sm:gap-x-5 gap-y-5 sm:gap-y-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">
           {/* Full Name */}
           <div className="flex flex-col">
-            <label className="text-black font-medium text-lg sm:text-xl md:text-[22px] mb-2 ml-1">
+            <label className="text-black font-bold text-[13px] sm:text-xl md:text-[13px] mb-2 ml-1">
               Name
             </label>
             <div className="relative w-full">
@@ -34,7 +34,7 @@ const Permisson = () => {
           </div>
           {/* Position */}
           <div className="flex flex-col">
-            <label className="text-black font-medium text-lg sm:text-xl md:text-[22px] mb-2 ml-1">
+            <label className="text-black font-bold text-[13px] sm:text-xl md:text-[13px] mb-2 ml-1">
               Email
             </label>
             <div className="relative w-full">
@@ -50,7 +50,7 @@ const Permisson = () => {
           </div>
           {/* Company Name (Optional) */}
           <div className="flex flex-col">
-            <label className="text-black font-medium text-lg sm:text-xl md:text-[22px] mb-2 ml-1">
+            <label className="text-black font-bold text-xs sm:text-xl md:text-[13px] mb-2 ml-1">
               City
             </label>
             <div className="relative w-full">
@@ -66,7 +66,7 @@ const Permisson = () => {
           </div>
           {/* Email Address */}
           <div className="flex flex-col">
-            <label className="text-black font-medium text-lg sm:text-xl md:text-[22px] mb-2 ml-1">
+            <label className="text-black font-bold text-xs sm:text-xl md:text-[13px] mb-2 ml-1">
               Mobile No
             </label>
             <div className="relative w-full">
@@ -82,7 +82,7 @@ const Permisson = () => {
           </div>
           {/* Mobile */}
           <div className="flex flex-col">
-            <label className="text-black font-medium text-lg sm:text-xl md:text-[22px] mb-2 ml-1">
+            <label className="text-black font-bold text-[13px] sm:text-xl md:text-[13px] mb-2 ml-1">
               Role
             </label>
             <div className="relative w-full">
@@ -98,7 +98,7 @@ const Permisson = () => {
           </div>
           {/* City (Input instead of Select) */}
           <div className="flex flex-col">
-            <label className="text-black font-medium text-lg sm:text-xl md:text-[22px] mb-2 ml-1">
+            <label className="text-black font-bold text-[13px] sm:text-xl md:text-[13px] mb-2 ml-1">
               Company Name
             </label>
             <div className="relative w-full">
@@ -125,9 +125,9 @@ const Permisson = () => {
           {Object.entries(dummyData).map(([label, value]) => (
             <div
               key={label}
-              className="flex justify-between items-center  pb-2"
+              className="flex justify-between items-center text-lg md:text-2xl  pb-2"
             >
-              <span className="text-black font-medium capitalize sm:text-lg text-2xl">
+              <span className="text-black font-bold capitalize md:text-2xl text-lg">
                 {label.replace(/([A-Z])/g, " $1")}
               </span>
               <span className="text-[#000000] sm:text-base text-2xl text-right">
