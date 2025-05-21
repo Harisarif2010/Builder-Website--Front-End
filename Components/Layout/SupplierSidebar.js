@@ -31,10 +31,10 @@ const SupplierSidebar = () => {
           <div className="mb-6">
             <ul>
               <li className="mb-6 mx-6">
-                <Link href="/UserDashboard/">
+                <Link href="/SupplierDashboard/">
                   <div
                     className={`flex items-center  px-4  py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium my-3  ${
-                      isActive("/UserDashboard")
+                      isActive("/SupplierDashboard")
                         ? "bg-white text-[#000176] "
                         : "text-white mx-3"
                     }`}
@@ -42,7 +42,7 @@ const SupplierSidebar = () => {
                     <div className="mr-3 w-5 h-5 relative">
                       <Image
                         src={
-                          isActive("/UserDashboard")
+                          isActive("/SupplierDashboard")
                             ? "/icons/dashboardblue.svg"
                             : "/icons/dashboard.png"
                         }
@@ -57,10 +57,10 @@ const SupplierSidebar = () => {
                 </Link>
               </li>
               <li className="mb-6 mx-6">
-                <Link href="/UserDashboard/Profile">
+                <Link href="/SupplierDashboard/Profile">
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
-                      isActive("/UserDashboard/Profile")
+                      isActive("/SupplierDashboard/Profile")
                         ? "bg-white text-[#000176] mx-3"
                         : "text-white  mx-3"
                     }`}
@@ -68,7 +68,7 @@ const SupplierSidebar = () => {
                     <div className="mr-3 w-5 h-5 relative">
                       <Image
                         src={
-                          isActive("/UserDashboard/Profile")
+                          isActive("/SupplierDashboard/Profile")
                             ? "/icons/profileblue.svg"
                             : "/icons/profile.svg"
                         }
@@ -83,10 +83,10 @@ const SupplierSidebar = () => {
                 </Link>
               </li>
               <li className="mb-6 mx-6">
-                <Link href="/UserDashboard/Quotation">
+                <Link href="/SupplierDashboard/Quotation">
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
-                      isActive("/UserDashboard/PainScore")
+                      isActive("/SupplierDashboard/PainScore")
                         ? "bg-white text-[#000176] mx-3"
                         : "text-white  mx-3"
                     }`}
@@ -94,7 +94,7 @@ const SupplierSidebar = () => {
                     <div className="mr-3 w-5 h-5 relative">
                       <Image
                         src={
-                          isActive("/UserDashboard/Quotation")
+                          isActive("/SupplierDashboard/Quotation")
                             ? "/icons/quotation.svg"
                             : "/icons/quotation.svg"
                         }
@@ -109,10 +109,10 @@ const SupplierSidebar = () => {
                 </Link>
               </li>
               <li className="mb-6 mx-6">
-                <Link href="/UserDashboard/Orders">
+                <Link href="/SupplierDashboard/Orders">
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
-                      isActive("/UserDashboard/Orders")
+                      isActive("/SupplierDashboard/Orders")
                         ? "bg-white text-[#000176] mx-3"
                         : "text-white mx-3"
                     }`}
@@ -120,7 +120,7 @@ const SupplierSidebar = () => {
                     <div className="mr-3 w-5 h-5 relative">
                       <Image
                         src={
-                          isActive("/UserDashboard/Orders")
+                          isActive("/SupplierDashboard/Orders")
                             ? "/icons/orderblue.svg"
                             : "/icons/orders.svg"
                         }
@@ -135,10 +135,10 @@ const SupplierSidebar = () => {
                 </Link>
               </li>
               <li className="mb-6 mx-6">
-                <Link href="/UserDashboard/Payment">
+                <Link href="/SupplierDashboard/Payment">
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
-                      isActive("/UserDashboard/Payment")
+                      isActive("/SupplierDashboard/Payment")
                         ? "bg-white text-[#000176] mx-3"
                         : "text-white mx-3"
                     }`}
@@ -147,7 +147,7 @@ const SupplierSidebar = () => {
                       <Image
                         // src="/icons/medication.png"
                         src={
-                          isActive("/UserDashboard/Payment")
+                          isActive("/SupplierDashboard/Payment")
                             ? "/icons/paymentblue.svg"
                             : "/icons/payment.svg"
                         }
@@ -162,10 +162,10 @@ const SupplierSidebar = () => {
                 </Link>
               </li>
               <li className="mb-6 mx-6">
-                <Link href="/UserDashboard/Help">
+                <Link href="/SupplierDashboard/Inquiry">
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
-                      isActive("/UserDashboard/Help")
+                      isActive("/SupplierDashboard/Inquiry")
                         ? "bg-white text-[#000176] mx-3"
                         : "text-white mx-3"
                     }`}
@@ -173,7 +173,33 @@ const SupplierSidebar = () => {
                     <div className="mr-3 w-5 h-5 relative">
                       <Image
                         src={
-                          isActive("/UserDashboard/Help")
+                          isActive("/SupplierDashboard/Inquiry")
+                            ? "/icons/inquiryblue.png"
+                            : "/icons/inquiry.png"
+                        }
+                        alt="Good Day/Bad Day icon"
+                        width={20}
+                        height={20}
+                      />
+                    </div>
+                    <span>Inquiry Section</span>
+                  </div>
+                </Link>
+              </li>
+
+              <li className="mb-6 mx-6">
+                <Link href="/SupplierDashboard/Help">
+                  <div
+                    className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
+                      isActive("/SupplierDashboard/Help")
+                        ? "bg-white text-[#000176] mx-3"
+                        : "text-white mx-3"
+                    }`}
+                  >
+                    <div className="mr-3 w-5 h-5 relative">
+                      <Image
+                        src={
+                          isActive("/SupplierDashboard/Help")
                             ? "/icons/helpblue.svg"
                             : "/icons/help.svg"
                         }
@@ -187,10 +213,10 @@ const SupplierSidebar = () => {
                 </Link>
               </li>
               <li className="mb-6 mx-6">
-                <Link href="/UserDashboard/Chat ">
+                <Link href="/SupplierDashboard/Chat ">
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
-                      isActive("/UserDashboard/Chat")
+                      isActive("/SupplierDashboard/Chat")
                         ? "bg-white text-[#000176] mx-3"
                         : "text-white mx-3"
                     }`}
@@ -198,9 +224,9 @@ const SupplierSidebar = () => {
                     <div className="mr-3 w-5 h-5 relative">
                       <Image
                         src={
-                          isActive("/UserDashboard/Chat")
+                          isActive("/SupplierDashboard/Chat")
                             ? "/icons/chatblue.svg"
-                            : "icons/chat.svg"
+                            : "/icons/chat.png"
                         }
                         alt="Daily"
                         width={20}

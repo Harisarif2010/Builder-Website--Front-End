@@ -14,7 +14,7 @@ const Sidebar = () => {
 
   return (
     //w-64 original
-    <div className="flex flex-col w-1/5  bg-[#000176] h-auto border  rounded-tr-[13px] rounded-l-[4px] ">
+    <div className="flex flex-col w-1/5  bg-[#000176] h-auto border  rounded-tr-[13px] rounded-l-[4px]  ">
       {/* Logo section */}
       <div>
         <Link href="/">

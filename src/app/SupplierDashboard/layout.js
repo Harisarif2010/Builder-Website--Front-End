@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
           {/* Main content */}
           <div className="flex-1 flex flex-col min-h-screen  bg-[#EEF0F4]">
             {/* Topbar */}
-            <div className="flex  justify-between items-center p-3 my-3 mx-3 bg-white rounded-[13px] h-1/12">
+            <div className="flex  justify-between items-center p-3 mt-2 mx-3 bg-white rounded-[13px] h-1/12">
               {/* Search input */}
               <input
                 type="text"

@@ -263,3 +263,47 @@ export const invoices = [
     action: "",
   },
 ];
+export const employeePermissions = [
+  {
+    name: "John Doe",
+    role: "Sales Manager",
+    permissions: "Can Edit Quotes & Orders",
+    status: "Active",
+  },
+  {
+    name: "Sarah",
+    role: "Support Staff",
+    permissions: "Can View Quotes Only",
+    status: "Active",
+  },
+  {
+    name: "Mark Smith",
+    role: "Accountant",
+    permissions: "Can Manage Payment",
+    status: "Inactive",
+  },
+];
+
+export const inquiryRequests = [
+  {
+    id: 1022,
+    customerName: "John Doe",
+    uploadFile: "Project.pdf",
+    productName: "Steel",
+    status: "Send",
+  },
+  {
+    id: 1023,
+    customerName: "Sarah",
+    uploadFile: "Project.pdf",
+    productName: "Wood",
+    status: "Pending",
+  },
+  {
+    id: 1024,
+    customerName: "Mark Smith",
+    uploadFile: "Project.pdf",
+    productName: "Cement",
+    status: "Send",
+  },
+];
