@@ -36,7 +36,7 @@ const Dashboard = () => {
             onClick={() => {
               router.push("/UserDashboard/InviteSupplier");
             }}
-            className="flex items-center justify-center text-[#354EF3] text-[20px] font-semibold px-3 py-3 border border-[#354EF3] rounded-[22px] h-12 cursor-pointer"
+            className="flex items-center justify-center  text-[var(--primary-blue)] text-[20px] font-semibold px-3 py-3 border border-[#354EF3] rounded-[22px] h-12 cursor-pointer"
           >
             Invite New Supplier
           </button>
@@ -51,7 +51,7 @@ const Dashboard = () => {
             <h3 className="text-[#586A84] text-[14px] font-semibold ">
               Pending Quote Requests
             </h3>
-            <div className="bg-[#354EF3] flex justify-center items-center rounded-md h-9 w-9">
+            <div className=" bg-[var(--primary-blue)] flex justify-center items-center rounded-md h-9 w-9">
               {" "}
               <Image
                 src="/icons/quotation.svg"

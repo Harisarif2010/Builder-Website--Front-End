@@ -65,7 +65,7 @@ const PricingPlans = () => {
                 className="flex justify-center items-center gap-2 bg-[#E2E6FF] w-full py-2 rounded"
               >
                 {feature.included ? (
-                  <Check className="text-[#354EF3] w-5 h-5" />
+                  <Check className=" text-[var(--primary-blue)] w-5 h-5" />
                 ) : (
                   <X className="text-[#D60A0A] w-5 h-5" />
                 )}

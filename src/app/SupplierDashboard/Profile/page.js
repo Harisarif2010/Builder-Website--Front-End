@@ -220,7 +220,7 @@ const EmployeePermission = () => {
         </div>
       </div>
       <div className="flex flex-row justify-end items-end my-4">
-        <button className="bg-[#354EF3] text-white text-[24px] font-semibold  rounded-[26px] h-14 flex justify-center items-center px-5">
+        <button className=" bg-[var(--primary-blue)] text-white text-[24px] font-semibold  rounded-[26px] h-14 flex justify-center items-center px-5">
           Send
         </button>
       </div>

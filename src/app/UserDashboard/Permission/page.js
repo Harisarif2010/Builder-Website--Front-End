@@ -114,7 +114,7 @@ const Permisson = () => {
           </div>
         </div>
         <div className="flex flex-row justify-end my-10 ">
-          <button className="bg-[#354EF3] text-white text-[24px] font-semibold px-4 py-3 rounded-[26px] h-14 w-27">
+          <button className=" bg-[var(--primary-blue)] text-white text-[24px] font-semibold px-4 py-3 rounded-[26px] h-14 w-27">
             Send
           </button>
         </div>
@@ -139,7 +139,7 @@ const Permisson = () => {
 
         {/* Send Button */}
         <div className="flex justify-end mt-10">
-          <button className="bg-[#354EF3] text-white text-[24px] font-semibold px-4 py-3 rounded-[26px] h-14 w-28">
+          <button className=" bg-[var(--primary-blue)] text-white text-[24px] font-semibold px-4 py-3 rounded-[26px] h-14 w-28">
             Send
           </button>
         </div>

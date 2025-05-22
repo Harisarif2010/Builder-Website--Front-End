@@ -25,7 +25,10 @@ const page = () => {
                 <td className="py-3 px-4">{row.supplier}</td>
                 <td className="py-3 px-4 font-medium">{row.status}</td>
                 <td className="py-3 px-4 flex items-center gap-3">
-                  <Pencil size={18} className="text-[#354EF3] cursor-pointer" />
+                  <Pencil
+                    size={18}
+                    className=" text-[var(--primary-blue)] cursor-pointer"
+                  />
                   <Trash2 size={18} className="text-[#9A2B2B] cursor-pointer" />
                 </td>
               </tr>

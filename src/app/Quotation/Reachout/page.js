@@ -100,7 +100,7 @@ const Contact = () => {
         {/* Left Side: Back + Text */}
 
         {/* Right Side: Submit */}
-        <button className="bg-[#354EF3] text-white text-[20px] font-semibold px-6 py-3 rounded-[18px] h-14 ">
+        <button className=" bg-[var(--primary-blue)] text-white text-[20px] font-semibold px-6 py-3 rounded-[18px] h-14 ">
           Review & Submit
         </button>
       </div>

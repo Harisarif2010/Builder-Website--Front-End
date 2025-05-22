@@ -156,7 +156,7 @@ export default function Home() {
           <h2 className="text-2xl font-semibold text-center sm:text-left w-full sm:w-auto">
             Our Happy Clients
           </h2>
-          <button className="bg-[#354EF3] text-white px-4 py-2 rounded-[10px] text-sm sm:flex sm:justify-center">
+          <button className=" bg-[var(--primary-blue)] text-white px-4 py-2 rounded-[10px] text-sm sm:flex sm:justify-center">
             View All Testimonials
           </button>
         </div>
@@ -170,12 +170,16 @@ export default function Home() {
             >
               <div>
                 <div className="flex flex-row items-center gap-x-4 mb-4">
-                  <Quote className="text-[#354EF3]" size={32} fill="#354EF3" />
+                  <Quote
+                    className=" text-[var(--primary-blue)]"
+                    size={32}
+                    fill="#354EF3"
+                  />
                   <div className="flex gap-x-2">
                     {[...Array(5)].map((_, i) => (
                       <span
                         key={i}
-                        className="w-8 h-8 flex items-center justify-center rounded-full bg-[#354EF3] text-white"
+                        className="w-8 h-8 flex items-center justify-center rounded-full  bg-[var(--primary-blue)] text-white"
                       >
                         ⭐
                       </span>
@@ -212,7 +216,7 @@ export default function Home() {
             <button
               onClick={next}
               disabled={index + cardsPerPage >= testimonials.length}
-              className="p-2 rounded-full border border-[#221F4E] bg-[#354EF3] disabled:opacity-50"
+              className="p-2 rounded-full border border-[#221F4E]  bg-[var(--primary-blue)] disabled:opacity-50"
             >
               <ArrowRight color="white" />
             </button>

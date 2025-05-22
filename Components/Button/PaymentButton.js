@@ -11,7 +11,7 @@ const PaymentButton = () => {
       </div>
 
       <div className="flex justify-center mt-3 ">
-        <button className="w-4/5 bg-[#354EF3] text-white py-2 rounded-[35px]">
+        <button className="w-4/5  bg-[var(--primary-blue)] text-white py-2 rounded-[35px]">
           Payment Confirm
         </button>
       </div>

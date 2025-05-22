@@ -13,7 +13,7 @@ const StepProgress = ({ step1Icon, step2Icon, verified }) => {
           <div className="w-12 h-12 flex items-center justify-center">
             <Image src={step1Icon} alt="Basic Info" width={68} height={68} />
           </div>
-          <span className="text-[#354EF3] font-medium text-[22px]">
+          <span className=" text-[var(--primary-blue)] font-medium text-[22px]">
             Basic Information
           </span>
         </div>
@@ -37,7 +37,7 @@ const StepProgress = ({ step1Icon, step2Icon, verified }) => {
         <span
           className={`${
             verified
-              ? "text-[#354EF3] font-medium text-[22px]"
+              ? " text-[var(--primary-blue)] font-medium text-[22px]"
               : "text-[#8B8B8B] text-[22px] font-medium"
           }`}
         >

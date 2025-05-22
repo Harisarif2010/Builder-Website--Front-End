@@ -183,7 +183,7 @@ export default function HeaderHome() {
         </h1>
         <SearchBar placeholder="Search Building Material" />
         <div className="flex justify-center mt-8">
-          <button className="w-1/3 bg-[#354EF3] text-white py-2 rounded-[35px] font-bold">
+          <button className="w-1/3  bg-[var(--primary-blue)] text-white py-2 rounded-[35px] font-bold">
             Attach RFQ File
           </button>
         </div>

@@ -27,7 +27,7 @@ const BrandCard = ({ title, image }) => {
         </div>
 
         <button
-          className="mt-auto bg-[#354EF3] text-white text-sm sm:text-[14px] px-4 py-2 rounded-3xl w-full sm:w-1/2 h-12 sm:h-14"
+          className="mt-auto  bg-[var(--primary-blue)] text-white text-sm sm:text-[14px] px-4 py-2 rounded-3xl w-full sm:w-1/2 h-12 sm:h-14"
           onClick={openModal}
         >
           Request Quotation now

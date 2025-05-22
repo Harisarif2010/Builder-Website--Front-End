@@ -63,14 +63,14 @@ const SupplierLogin = () => {
           <label className="flex items-center text-[#000000] text-[20px] font-medium">
             <input
               type="checkbox"
-              className="w-4 h-4 text-[#354EF3] focus:ring-[#354EF3]"
+              className="w-4 h-4  text-[var(--primary-blue)] focus:ring-[#354EF3]"
             />
             Remember me
           </label>
 
           {/* Forgot Password */}
           <Link
-            className="text-[#354EF3] hover:underline font-medium"
+            className=" text-[var(--primary-blue)] hover:underline font-medium"
             href="/auth/ForgotPassword"
           >
             Forgot password?
@@ -81,7 +81,7 @@ const SupplierLogin = () => {
           Don’t have an account?{" "}
           <Link
             href="/auth/Signup"
-            className="text-[#354EF3] font-medium hover:underline"
+            className=" text-[var(--primary-blue)] font-medium hover:underline"
           >
             Register Now
           </Link>
@@ -89,7 +89,7 @@ const SupplierLogin = () => {
 
         <button
           type="submit"
-          className="w-1/4 bg-[#354EF3] text-white py-2 font-semibold text-lg  transition-all rounded-[35px] mt-10 cursor-pointer"
+          className="w-1/4  bg-[var(--primary-blue)] text-white py-2 font-semibold text-lg  transition-all rounded-[35px] mt-10 cursor-pointer"
           onClick={handleSubmit}
         >
           Login

@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-[#070D30] px-4 md:px-8 pt-20 pb-6 text-white relative">
       {/* Social Media Section */}
       <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 w-[90%] md:w-full max-w-7xl">
-        <div className="bg-[#354EF3] bg-opacity-20 rounded-[35px] py-3 px-4 md:px-6 flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0">
+        <div className=" bg-[var(--primary-blue)] bg-opacity-20 rounded-[35px] py-3 px-4 md:px-6 flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0">
           <p className="text-sm font-medium text-center md:text-left">
             Get Connected with us on Social media
           </p>
@@ -40,7 +40,7 @@ const Footer = () => {
                 placeholder="Email"
                 className="rounded-full sm:rounded-l-full sm:rounded-r-none px-4 py-2 w-full focus:outline-none text-sm bg-white placeholder-black mb-2 sm:mb-0"
               />
-              <button className="text-white bg-[#354EF3] px-4 py-2 rounded-full sm:rounded-r-full sm:rounded-l-none text-sm font-medium hover:bg-[#c99b82] transition-colors whitespace-nowrap">
+              <button className="text-white  bg-[var(--primary-blue)] px-4 py-2 rounded-full sm:rounded-r-full sm:rounded-l-none text-sm font-medium hover:bg-[#c99b82] transition-colors whitespace-nowrap">
                 Subscribe now
               </button>
             </div>

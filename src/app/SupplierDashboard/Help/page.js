@@ -62,10 +62,10 @@ const Help = () => {
         {" "}
         <div className="flex   mt-10 gap-x-3">
           {/* Back Button */}
-          <button className="bg-[#354EF3] text-white text-[20px] font-semibold px-6 py-3 rounded-[26px] h-14">
+          <button className=" bg-[var(--primary-blue)] text-white text-[20px] font-semibold px-6 py-3 rounded-[26px] h-14">
             Submit
           </button>
-          <button className="bg-[white] text-[#354EF3] text-[20px] font-semibold px-6 py-3 border border-[#949494] rounded-[26px] h-14">
+          <button className="bg-[white]  text-[var(--primary-blue)] text-[20px] font-semibold px-6 py-3 border border-[#949494] rounded-[26px] h-14">
             Live Chat
           </button>
 

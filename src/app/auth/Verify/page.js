@@ -43,7 +43,7 @@ const Verify = () => {
         <label className="flex items-center text-[#090909] text-[22px] font-medium  ml-10 gap-3">
           <input
             type="checkbox"
-            className="w-4 h-4 text-[#354EF3] focus:ring-[#354EF3]"
+            className="w-4 h-4  text-[var(--primary-blue)] focus:ring-[#354EF3]"
           />
           I agree to the Terms & Conditions
         </label>
@@ -53,7 +53,7 @@ const Verify = () => {
       <div className="w-full flex justify-around items-center my-8">
         {/* Left Side: Back + Text */}
         <div className="flex items-center gap-3">
-          <button className="bg-[#354EF3] text-white text-[20px] font-semibold px-6 py-3 rounded-[18px] h-14">
+          <button className=" bg-[var(--primary-blue)] text-white text-[20px] font-semibold px-6 py-3 rounded-[18px] h-14">
             Back
           </button>
           <span className="text-[#7B7B7B] text-lg font-medium">
@@ -62,7 +62,7 @@ const Verify = () => {
         </div>
 
         {/* Right Side: Submit */}
-        <button className="bg-[#354EF3] text-white text-[20px] font-semibold px-6 py-3 rounded-[18px] h-14 w-1/12">
+        <button className=" bg-[var(--primary-blue)] text-white text-[20px] font-semibold px-6 py-3 rounded-[18px] h-14 w-1/12">
           Submit
         </button>
       </div>

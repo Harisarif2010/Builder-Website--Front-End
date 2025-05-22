@@ -49,7 +49,7 @@ const SupplierProfile = () => {
       </div>
       <div className="flex flex-row  justify-center md:justify-end items-end my-4">
         <button
-          className={` ${poppins.variable} bg-[#354EF3] text-white text-[24px] font-medium  rounded-[26px] h-18 flex justify-center items-center px-2`}
+          className={` ${poppins.variable}  bg-[var(--primary-blue)] text-white text-[24px] font-medium  rounded-[26px] h-18 flex justify-center items-center px-2`}
         >
           Add Employee
         </button>

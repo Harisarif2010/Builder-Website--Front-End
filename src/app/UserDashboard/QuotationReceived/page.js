@@ -34,7 +34,7 @@ const Received = () => {
                   <td className="py-3 px-4 flex items-center gap-3">
                     <BookCheck
                       size={18}
-                      className="text-[#006C35] cursor-pointer"
+                      className="text-[var(--green)]cursor-pointer"
                     />
                     <Trash2
                       size={18}
@@ -123,7 +123,7 @@ const Received = () => {
                     <div className="flex items-center gap-3">
                       <FileText
                         size={18}
-                        className="text-[#006C35] cursor-pointer"
+                        className="text-[var(--green)]cursor-pointer"
                       />
                       <Trash2
                         size={18}

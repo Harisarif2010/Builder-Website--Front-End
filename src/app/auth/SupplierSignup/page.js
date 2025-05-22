@@ -116,7 +116,7 @@ const SupplierSignup = () => {
       </div>
 
       <div className="w-full flex flex-col sm:flex-row justify-end items-center gap-4 mt-6 sm:mt-8">
-        <button className="bg-[#354EF3] text-white text-[26px] font-semibold px-3   rounded-[18px] h-15 flex items-center ">
+        <button className=" bg-[var(--primary-blue)] text-white text-[26px] font-semibold px-3   rounded-[18px] h-15 flex items-center ">
           Next <ArrowRight size={25} className="ml-1" />
         </button>
         <span className="text-gray-500 text-sm sm:text-base font-medium text-center sm:text-left">

@@ -40,7 +40,7 @@ const Verify = () => {
             </button>
 
             {/* Submit Button */}
-            <button className="bg-[#354EF3] text-white text-[20px] font-semibold px-6 py-3 rounded-[31px] h-14">
+            <button className=" bg-[var(--primary-blue)] text-white text-[20px] font-semibold px-6 py-3 rounded-[31px] h-14">
               Submit
             </button>
           </div>
