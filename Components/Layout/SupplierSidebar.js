@@ -11,7 +11,7 @@ const SupplierSidebar = () => {
 
   return (
     //w-64 original
-    <div className="flex flex-col w-1/5  bg-[#000176] h-auto border  rounded-tr-[13px] rounded-l-[4px] ">
+    <div className="flex flex-col w-1/5  bg-[var(--secondary-blue)] h-auto border  rounded-tr-[13px] rounded-l-[4px] ">
       {/* Logo section */}
       <div>
         <Link href="/">
@@ -35,7 +35,7 @@ const SupplierSidebar = () => {
                   <div
                     className={`flex items-center  px-4  py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium my-3  ${
                       isActive("/SupplierDashboard")
-                        ? "bg-white text-[#000176] "
+                        ? "bg-white text-[var(--secondary-blue)] "
                         : "text-white mx-3"
                     }`}
                   >
@@ -61,7 +61,7 @@ const SupplierSidebar = () => {
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
                       isActive("/SupplierDashboard/Profile")
-                        ? "bg-white text-[#000176] mx-3"
+                        ? "bg-white text-[var(--secondary-blue)] mx-3"
                         : "text-white  mx-3"
                     }`}
                   >
@@ -85,9 +85,35 @@ const SupplierSidebar = () => {
               <li className="mb-6 mx-6">
                 <Link href="/SupplierDashboard/Quotation">
                   <div
+                    className={`flex items-center px-4 py-1 mb-1 rounded-lg   cursor-pointer transition-colors font-medium ${
+                      isActive("/SupplierDashboard/PainScore")
+                        ? "bg-white text-[var(--secondary-blue)] mx-3"
+                        : "text-white  mx-3"
+                    }`}
+                  >
+                    <div className="mr-3 w-5 h-5 relative">
+                      <Image
+                        src={
+                          isActive("/SupplierDashboard/Quotation")
+                            ? "/icons/productwhite.png"
+                            : "/icons/products.png"
+                        }
+                        alt="Pet Profile icon"
+                        width={12}
+                        height={12}
+                        className="object-contain"
+                      />
+                    </div>
+                    <span>Products Managment</span>
+                  </div>
+                </Link>
+              </li>
+              <li className="mb-6 mx-6">
+                <Link href="/SupplierDashboard/Quotation">
+                  <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
                       isActive("/SupplierDashboard/PainScore")
-                        ? "bg-white text-[#000176] mx-3"
+                        ? "bg-white text-[var(--secondary-blue)] mx-3"
                         : "text-white  mx-3"
                     }`}
                   >
@@ -113,7 +139,7 @@ const SupplierSidebar = () => {
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
                       isActive("/SupplierDashboard/Orders")
-                        ? "bg-white text-[#000176] mx-3"
+                        ? "bg-white text-[var(--secondary-blue)] mx-3"
                         : "text-white mx-3"
                     }`}
                   >
@@ -139,13 +165,12 @@ const SupplierSidebar = () => {
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
                       isActive("/SupplierDashboard/Payment")
-                        ? "bg-white text-[#000176] mx-3"
+                        ? "bg-white text-[var(--secondary-blue)] mx-3"
                         : "text-white mx-3"
                     }`}
                   >
                     <div className="mr-3 w-5 h-5 relative">
                       <Image
-                        // src="/icons/medication.png"
                         src={
                           isActive("/SupplierDashboard/Payment")
                             ? "/icons/paymentblue.svg"
@@ -157,7 +182,7 @@ const SupplierSidebar = () => {
                         className="object-contain"
                       />
                     </div>
-                    <span>Payment & Billing</span>
+                    <span>Earning & Payouts</span>
                   </div>
                 </Link>
               </li>
@@ -166,7 +191,7 @@ const SupplierSidebar = () => {
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
                       isActive("/SupplierDashboard/Inquiry")
-                        ? "bg-white text-[#000176] mx-3"
+                        ? "bg-white text-[var(--secondary-blue)] mx-3"
                         : "text-white mx-3"
                     }`}
                   >
@@ -192,7 +217,7 @@ const SupplierSidebar = () => {
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
                       isActive("/SupplierDashboard/Help")
-                        ? "bg-white text-[#000176] mx-3"
+                        ? "bg-white text-[var(--secondary-blue)] mx-3"
                         : "text-white mx-3"
                     }`}
                   >
@@ -217,7 +242,7 @@ const SupplierSidebar = () => {
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
                       isActive("/SupplierDashboard/Chat")
-                        ? "bg-white text-[#000176] mx-3"
+                        ? "bg-white text-[var(--secondary-blue)] mx-3"
                         : "text-white mx-3"
                     }`}
                   >

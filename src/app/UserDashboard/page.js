@@ -40,7 +40,7 @@ const Dashboard = () => {
           >
             Invite New Supplier
           </button>
-          <button className="flex items-center justify-center bg-[#000176] text-white text-[20px] font-semibold px-3 py-3 rounded-[22px] h-12">
+          <button className="flex items-center justify-center bg-[var(--secondary-blue)] text-white text-[20px] font-semibold px-3 py-3 rounded-[22px] h-12">
             Request Quote
           </button>
         </div>

@@ -14,7 +14,7 @@ const Sidebar = () => {
 
   return (
     //w-64 original
-    <div className="flex flex-col w-1/5  bg-[#000176] h-auto border  rounded-tr-[13px] rounded-l-[4px]  ">
+    <div className="flex flex-col w-1/5  bg-[var(--secondary-blue)] h-auto border  rounded-tr-[13px] rounded-l-[4px]  ">
       {/* Logo section */}
       <div>
         <Link href="/">
@@ -38,7 +38,7 @@ const Sidebar = () => {
                   <div
                     className={`flex items-center  px-4  py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium my-3  ${
                       isActive("/UserDashboard")
-                        ? "bg-white text-[#000176] "
+                        ? "bg-white text-[var(--secondary-blue)] "
                         : "text-white mx-3"
                     }`}
                   >
@@ -64,7 +64,7 @@ const Sidebar = () => {
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
                       isActive("/UserDashboard/Profile")
-                        ? "bg-white text-[#000176] mx-3"
+                        ? "bg-white text-[var(--secondary-blue)] mx-3"
                         : "text-white  mx-3"
                     }`}
                   >
@@ -90,7 +90,7 @@ const Sidebar = () => {
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
                       isActive("/UserDashboard/PainScore")
-                        ? "bg-white text-[#000176] mx-3"
+                        ? "bg-white text-[var(--secondary-blue)] mx-3"
                         : "text-white  mx-3"
                     }`}
                   >
@@ -116,7 +116,7 @@ const Sidebar = () => {
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
                       isActive("/UserDashboard/Orders")
-                        ? "bg-white text-[#000176] mx-3"
+                        ? "bg-white text-[var(--secondary-blue)] mx-3"
                         : "text-white mx-3"
                     }`}
                   >
@@ -142,7 +142,7 @@ const Sidebar = () => {
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
                       isActive("/UserDashboard/Payment")
-                        ? "bg-white text-[#000176] mx-3"
+                        ? "bg-white text-[var(--secondary-blue)] mx-3"
                         : "text-white mx-3"
                     }`}
                   >
@@ -169,7 +169,7 @@ const Sidebar = () => {
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
                       isActive("/UserDashboard/Help")
-                        ? "bg-white text-[#000176] mx-3"
+                        ? "bg-white text-[var(--secondary-blue)] mx-3"
                         : "text-white mx-3"
                     }`}
                   >
@@ -194,7 +194,7 @@ const Sidebar = () => {
                   <div
                     className={`flex items-center px-4 py-2 mb-1 rounded-lg cursor-pointer transition-colors font-medium ${
                       isActive("/UserDashboard/Chat")
-                        ? "bg-white text-[#000176] mx-3"
+                        ? "bg-white text-[var(--secondary-blue)] mx-3"
                         : "text-white mx-3"
                     }`}
                   >

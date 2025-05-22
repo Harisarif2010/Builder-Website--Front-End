@@ -77,7 +77,7 @@ const Supplier = () => {
           {/* City (Input instead of Select) */}
         </div>
         <div className="flex flex-row justify-end mt-14">
-          <button className="bg-[#000176] text-white text-[16px] font-bold px-3 py-3 rounded-[22px] h-12 w-38">
+          <button className="bg-[var(--secondary-blue)] text-white text-[16px] font-bold px-3 py-3 rounded-[22px] h-12 w-38">
             Send Invite
           </button>
         </div>
