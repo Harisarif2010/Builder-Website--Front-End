@@ -1,6 +1,7 @@
 import { Poppins, Inter, Roboto } from "next/font/google";
 
 import "./globals.css";
+import ThemeProvider from "./theme/theme-provider";
 
 export const poppins = Poppins({
   subsets: ["latin"],
@@ -27,11 +28,18 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
         className={`${inter.variable} ${poppins.variable} ${roboto.variable} antialiased`}
       >
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

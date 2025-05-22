@@ -11,7 +11,7 @@ const SupplierSidebar = () => {
 
   return (
     //w-64 original
-    <div className="flex flex-col w-1/5  bg-[var(--secondary-blue)] h-auto border  rounded-tr-[13px] rounded-l-[4px] ">
+    <div className="hidden md:flex flex-col w-1/5  bg-[var(--secondary-blue)] h-auto border  rounded-tr-[13px] rounded-l-[4px] ">
       {/* Logo section */}
       <div>
         <Link href="/">

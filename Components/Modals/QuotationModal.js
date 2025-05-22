@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { X, PenLine, FileUp } from "lucide-react";
+import { X } from "lucide-react";
 
 // Modal component
 export const QuotationModal = ({ isOpen, onClose }) => {

@@ -1,37 +1,44 @@
-import { Bell, Settings, ShoppingCart } from "lucide-react";
+import { Bell, Settings, Search } from "lucide-react";
 import { poppins, roboto, inter } from "../fonts";
 import SupplierSidebar from "../../../Components/Layout/SupplierSidebar";
+import ThemeToggle from "../theme/Themetoggle";
+import ThemeProvider from "../theme/theme-provider";
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body>
         <div className="flex">
           {/* Sidebar */}
           <SupplierSidebar />
 
           {/* Main content */}
-          <div className="flex-1 flex flex-col min-h-screen  bg-[#EEF0F4]">
+          <div className="flex-1 flex flex-col min-h-screen bg-[#EEF0F4] dark:bg-black">
             {/* Topbar */}
-            <div className="flex  justify-between items-center p-3 mt-2 mx-3 bg-white rounded-[13px] h-1/12">
+            <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-3 p-3 mt-2 mx-3 bg-white rounded-[13px] h-auto">
               {/* Search input */}
-              <input
-                type="text"
-                placeholder="Search..."
-                className="w-2/3 px-4 py-2 border border-[#DAE3F8] rounded-lg text-sm  "
-              />
+              <div className="relative w-full md:w-1/2">
+                <input
+                  type="text"
+                  placeholder="Search here..."
+                  className="w-full pl-10 pr-4 py-2 bg-[#F2F6FA] rounded-lg text-sm placeholder:text-[#586A84]"
+                />
+                <div className="absolute left-3 top-1/2 transform -translate-y-1/2 pointer-events-none">
+                  <Search size={16} color="#586A84" />
+                </div>
+              </div>
 
               {/* icons */}
-              <div className="flex gap-x-6">
+              <div className="flex justify-end gap-x-4 md:gap-x-6">
+                <ThemeToggle />
                 <Bell color="#586A84" height={20} width={20} />
                 <Settings color="#586A84" height={20} width={20} />
-                <ShoppingCart color="#586A84" height={20} width={20} />
               </div>
             </div>
 
             {/* Page content */}
             <main
-              className={`p-2 ${poppins.className} ${inter.className}] rounded-3xl`}
+              className={`p-2 ${poppins.className} ${inter.className} rounded-3xl`}
             >
               {children}
             </main>

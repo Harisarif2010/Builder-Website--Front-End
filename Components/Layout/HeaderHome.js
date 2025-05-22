@@ -55,10 +55,10 @@ export default function HeaderHome() {
                 { label: "Brands", href: "/products/category2" },
               ]}
             />
-            <Link href="/about" className="text-white hover:text-gray-200">
+            <Link href="/About" className="text-white hover:text-gray-200">
               About Us
             </Link>
-            <Link href="/contact" className="text-white hover:text-gray-200">
+            <Link href="/Contact" className="text-white hover:text-gray-200">
               Contact Us
             </Link>
           </nav>
