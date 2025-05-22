@@ -2,7 +2,6 @@ import { Bell, Settings, Search } from "lucide-react";
 import { poppins, roboto, inter } from "../fonts";
 import SupplierSidebar from "../../../Components/Layout/SupplierSidebar";
 import ThemeToggle from "../theme/Themetoggle";
-import ThemeProvider from "../theme/theme-provider";
 
 export default function RootLayout({ children }) {
   return (
@@ -17,11 +16,11 @@ export default function RootLayout({ children }) {
             {/* Topbar */}
             <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-3 p-3 mt-2 mx-3 bg-white rounded-[13px] h-auto">
               {/* Search input */}
-              <div className="relative w-full md:w-1/2">
+              <div className="relative w-full md:w-1/4">
                 <input
                   type="text"
                   placeholder="Search here..."
-                  className="w-full pl-10 pr-4 py-2 bg-[#F2F6FA] rounded-lg text-sm placeholder:text-[#586A84]"
+                  className="w-full pl-10 pr-4 py-2 bg-[#F2F6FA] rounded-xs text-sm placeholder:text-[#586A84] placeholder:text-[14px]"
                 />
                 <div className="absolute left-3 top-1/2 transform -translate-y-1/2 pointer-events-none">
                   <Search size={16} color="#586A84" />
@@ -38,7 +37,7 @@ export default function RootLayout({ children }) {
 
             {/* Page content */}
             <main
-              className={`p-2 ${poppins.className} ${inter.className} rounded-3xl`}
+              className={`p-2 ${poppins.className} ${roboto.className} ${inter.className} rounded-3xl`}
             >
               {children}
             </main>
