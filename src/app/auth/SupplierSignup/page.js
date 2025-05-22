@@ -27,7 +27,7 @@ const SupplierSignup = () => {
           </label>
           <input
             type="text"
-            className="border border-[#8C8C8C] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Enter your full name"
           />
         </div>
@@ -39,7 +39,7 @@ const SupplierSignup = () => {
           </label>
           <input
             type="text"
-            className="border border-[#8C8C8C] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Enter company name"
           />
         </div>
@@ -51,7 +51,7 @@ const SupplierSignup = () => {
           </label>
           <input
             type="email"
-            className="border border-[#8C8C8C] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Enter business email"
           />
         </div>
@@ -63,7 +63,7 @@ const SupplierSignup = () => {
           </label>
           <input
             type="password"
-            className="border border-[#8C8C8C] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Enter a password"
           />
         </div>
@@ -74,7 +74,7 @@ const SupplierSignup = () => {
           </label>
           <input
             type="password"
-            className="border border-[#8C8C8C] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Confirm your password"
           />
         </div>

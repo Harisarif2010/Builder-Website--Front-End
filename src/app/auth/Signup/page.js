@@ -28,7 +28,7 @@ const UserSignup = () => {
           </label>
           <input
             type="text"
-            className="border border-[#8C8C8C] rounded-full h-10 sm:h-12 md:h-14 px-4 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-full h-10 sm:h-12 md:h-14 px-4 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Enter your first name"
           />
         </div>
@@ -40,7 +40,7 @@ const UserSignup = () => {
           </label>
           <input
             type="text"
-            className="border border-[#8C8C8C] rounded-full h-10 sm:h-12 md:h-14 px-4 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-full h-10 sm:h-12 md:h-14 px-4 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Enter your last name"
           />
         </div>
@@ -52,7 +52,7 @@ const UserSignup = () => {
           </label>
           <input
             type="email"
-            className="border border-[#8C8C8C] rounded-full h-10 sm:h-12 md:h-14 px-4 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-full h-10 sm:h-12 md:h-14 px-4 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Enter your email"
           />
         </div>
@@ -64,7 +64,7 @@ const UserSignup = () => {
           </label>
           <input
             type="password"
-            className="border border-[#8C8C8C] rounded-full h-10 sm:h-12 md:h-14 px-4 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-full h-10 sm:h-12 md:h-14 px-4 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Enter a password"
           />
         </div>
@@ -76,7 +76,7 @@ const UserSignup = () => {
           </label>
           <input
             type="password"
-            className="border border-[#8C8C8C] rounded-full h-10 sm:h-12 md:h-14 px-4 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-full h-10 sm:h-12 md:h-14 px-4 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Confirm your password"
           />
         </div>
@@ -86,7 +86,7 @@ const UserSignup = () => {
           <label className="text-black font-medium text-lg sm:text-xl mb-2 ml-3">
             City
           </label>
-          <select className="border border-[#8C8C8C] rounded-full h-10 sm:h-12 md:h-14 px-4 text-sm sm:text-base text-black bg-white">
+          <select className="border  border-[var(--secondary-border)] rounded-full h-10 sm:h-12 md:h-14 px-4 text-sm sm:text-base text-black bg-white">
             <option value="">Select City</option>
             <option value="riyadh">Riyadh</option>
             <option value="jeddah">Jeddah</option>
@@ -113,7 +113,7 @@ const UserSignup = () => {
           </label>
           <input
             type="tel"
-            className="border border-[#8C8C8C] rounded-full h-10 sm:h-12 md:h-14 px-4 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-full h-10 sm:h-12 md:h-14 px-4 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Enter mobile number"
           />
         </div>

@@ -31,7 +31,7 @@ const Profile = () => {
 
             <input
               type="text"
-              className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+              className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
               placeholder="Enter company name"
             />
           </div>
@@ -43,7 +43,7 @@ const Profile = () => {
 
             <input
               type="text"
-              className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+              className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
               placeholder="Enter company email"
             />
           </div>
@@ -56,7 +56,7 @@ const Profile = () => {
 
             <input
               type="text"
-              className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+              className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
               placeholder="Confirm your password"
             />
           </div>
@@ -68,7 +68,7 @@ const Profile = () => {
 
             <input
               type="text"
-              className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+              className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
               placeholder="Enter company email"
             />
           </div>
@@ -80,7 +80,7 @@ const Profile = () => {
 
             <input
               type="text"
-              className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+              className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
               placeholder="Confirm your password"
             />
           </div>
@@ -92,7 +92,7 @@ const Profile = () => {
 
             <input
               type="text"
-              className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+              className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
               placeholder="Enter your city"
             />
           </div>
@@ -103,7 +103,7 @@ const Profile = () => {
 
             <input
               type="text"
-              className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+              className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
               placeholder="Enter your city"
             />
           </div>
@@ -115,7 +115,7 @@ const Profile = () => {
 
             <input
               type="text"
-              className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+              className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
               placeholder="Enter your city"
             />
           </div>
@@ -126,7 +126,7 @@ const Profile = () => {
 
             <input
               type="text"
-              className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+              className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
               placeholder="Enter your city"
             />
           </div>
@@ -137,7 +137,7 @@ const Profile = () => {
 
             <input
               type="text"
-              className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+              className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
               placeholder="Enter your city"
             />
           </div>
@@ -149,7 +149,7 @@ const Profile = () => {
 
             <input
               type="text"
-              className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+              className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-11px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
               placeholder="Enter your city"
             />
           </div>

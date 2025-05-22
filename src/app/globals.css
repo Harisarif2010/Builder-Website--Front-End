@@ -12,6 +12,8 @@
   --font-mono: var(--font-geist-mono);
   --primary-blue: #354ef3;
   --green: #006c35;
+  --primary-border: #bbbbbb;
+  --secondary-border: #8c8c8c;
 }
 
 @media (prefers-color-scheme: dark) {

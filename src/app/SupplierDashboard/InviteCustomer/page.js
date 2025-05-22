@@ -16,7 +16,7 @@ const InviteCustomer = () => {
 
             <input
               type="text"
-              className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+              className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
               placeholder="Enter Customer Name"
             />
           </div>
@@ -27,7 +27,7 @@ const InviteCustomer = () => {
 
             <input
               type="text"
-              className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+              className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
               placeholder="Enter your company"
             />
           </div>
@@ -39,7 +39,7 @@ const InviteCustomer = () => {
 
             <input
               type="email"
-              className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+              className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
               placeholder="Enter your Email"
             />
           </div>
@@ -50,7 +50,7 @@ const InviteCustomer = () => {
             </label>
             <input
               type="text"
-              className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+              className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
               placeholder="Enter Phone Number"
             />
           </div>

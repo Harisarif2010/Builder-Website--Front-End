@@ -69,7 +69,7 @@ const Response = () => {
             </label>
             <input
               type="text"
-              className="w-full border border-[#BBBBBB] rounded-[11px] h-11 px-4 text-sm placeholder-[#989898]"
+              className="w-full border  border-[var(--primary-border)] rounded-[11px] h-11 px-4 text-sm placeholder-[#989898]"
               placeholder="Enter Name"
             />
           </div>
@@ -80,7 +80,7 @@ const Response = () => {
             </label>
             <button
               onClick={() => setOpen(!open)}
-              className="flex justify-between items-center w-full px-4 py-2 border border-[#BBBBBB] rounded-[11px] text-sm font-boldfocus:outline-none"
+              className="flex justify-between items-center w-full px-4 py-2 border  border-[var(--primary-border)] rounded-[11px] text-sm font-boldfocus:outline-none"
             >
               {selected}
               <ChevronDown size={20} className="ml-2 text-[#646464]" />
@@ -105,7 +105,7 @@ const Response = () => {
             <label className="block text-black font-bold text-sm sm:text-base mb-2">
               Upload File
             </label>
-            <label className="border border-[#BBBBBB] rounded-[11px] h-11 px-4 cursor-pointer flex flex-col  gap-4  bg-white hover:bg-gray-50 transition">
+            <label className="border  border-[var(--primary-border)] rounded-[11px] h-11 px-4 cursor-pointer flex flex-col  gap-4  bg-white hover:bg-gray-50 transition">
               <input type="file" className="hidden" />
               <div className="flex flex-row items-center justify-start">
                 <Image src="/icons/inquiry.png" width={36} height={36} />
@@ -120,7 +120,7 @@ const Response = () => {
               Addditional Notes
             </label>
             <textarea
-              className="w-full border border-[#BBBBBB] rounded-[11px] h-18 sm:h-20 md:h-25 px-4 sm:px-5 py-2 text-sm sm:text-base placeholder-[#989898] resize-none"
+              className="w-full border  border-[var(--primary-border)] rounded-[11px] h-18 sm:h-20 md:h-25 px-4 sm:px-5 py-2 text-sm sm:text-base placeholder-[#989898] resize-none"
               placeholder="Type here..."
             />
           </div>

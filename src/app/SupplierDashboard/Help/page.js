@@ -11,7 +11,7 @@ const Help = () => {
           </label>
           <input
             type="text"
-            className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-11 px-4 sm:px-5 text-sm sm:text-base placeholder-[#989898]"
+            className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-11 px-4 sm:px-5 text-sm sm:text-base placeholder-[#989898]"
             placeholder="Enter Name"
           />
         </div>
@@ -23,7 +23,7 @@ const Help = () => {
           </label>
           <input
             type="email"
-            className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-11 px-4 sm:px-5 text-sm sm:text-base placeholder-[#989898]"
+            className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-11 px-4 sm:px-5 text-sm sm:text-base placeholder-[#989898]"
             placeholder="Enter Email"
           />
         </div>
@@ -34,7 +34,7 @@ const Help = () => {
           </label>
           <input
             type="text"
-            className="w-full border border-[#BBBBBB] rounded-[11px] h-25 sm:h-20 md:h-30 px-4 sm:px-5 text-sm sm:text-base placeholder-[#989898]"
+            className="w-full border  border-[var(--primary-border)] rounded-[11px] h-25 sm:h-20 md:h-30 px-4 sm:px-5 text-sm sm:text-base placeholder-[#989898]"
             placeholder="Type here..."
           />
         </div>
@@ -44,7 +44,7 @@ const Help = () => {
           <label className="text-[#000000] font-medium md:text-base text-xs mb-2 ml-1">
             Upload File <span className="italic">(Optional)</span>
           </label>
-          <label className="border  border-[#BBBBBB] rounded-[11px] h-35 md:h-30 px-4 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
+          <label className="border   border-[var(--primary-border)] rounded-[11px] h-35 md:h-30 px-4 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
             <input type="file" className="hidden" />
             <div className="flex flex-col items-center justify-center">
               <Image

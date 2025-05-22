@@ -1,12 +1,17 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
+
 import { orders } from "@/app/data";
 import { Pencil, Trash2, Eye } from "lucide-react";
 import { roboto } from "@/app/fonts";
-import { useRouter } from "next/router";
+import { useRouter } from "next//navigation";
+import { DeleteModal } from "../../../../Components/Modals/DeleteModal";
 
 const Quoation = () => {
   const router = useRouter();
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const openModal = () => setIsModalOpen(true);
+  const closeModal = () => setIsModalOpen(false);
   const navigate = () => {
     router.push("/SupplierDashboard/AddProduct");
   };
@@ -51,6 +56,7 @@ const Quoation = () => {
                       <Trash2
                         size={18}
                         className="text-[#9A2B2B] cursor-pointer"
+                        onClick={openModal}
                       />
                       <Eye className="text-[#000000]" />
                     </div>
@@ -59,6 +65,7 @@ const Quoation = () => {
               ))}
             </tbody>
           </table>
+          <DeleteModal isOpen={isModalOpen} onClose={closeModal} />
         </div>
       </div>
       <div className="flex flex-row  justify-center md:justify-end items-end my-4 gap-x-3">

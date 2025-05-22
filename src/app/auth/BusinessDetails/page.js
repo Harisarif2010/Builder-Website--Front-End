@@ -16,7 +16,7 @@ const BusinessDetails = () => {
           </label>
           <input
             type="text"
-            className="border border-[#8C8C8C] rounded-[26px] h-14 px-5 placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-[26px] h-14 px-5 placeholder-[#A8A8A8]"
             placeholder="Enter company name"
           />
         </div>
@@ -28,7 +28,7 @@ const BusinessDetails = () => {
           </label>
           <input
             type="text"
-            className="border border-[#8C8C8C] rounded-[26px] h-14 px-5 placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-[26px] h-14 px-5 placeholder-[#A8A8A8]"
             placeholder="Enter CR number"
           />
         </div>
@@ -38,7 +38,7 @@ const BusinessDetails = () => {
           <label className="text-[#000000] font-medium text-2xl mb-2 ml-3">
             Location
           </label>
-          <select className="border border-[#8C8C8C] rounded-[26px] h-14 px-5 text-[#000000] bg-white">
+          <select className="border  border-[var(--secondary-border)] rounded-[26px] h-14 px-5 text-[#000000] bg-white">
             <option value="">Select Location</option>
             <option value="riyadh">Riyadh</option>
             <option value="jeddah">Jeddah</option>
@@ -68,7 +68,7 @@ const BusinessDetails = () => {
           </label>
           <input
             type="password"
-            className="border border-[#8C8C8C] rounded-[26px] h-14 px-5 placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-[26px] h-14 px-5 placeholder-[#A8A8A8]"
             placeholder="Re-enter your password"
           />
         </div>
@@ -78,7 +78,7 @@ const BusinessDetails = () => {
           <label className="text-[#000000] font-medium text-2xl mb-2 ml-3">
             Business Type
           </label>
-          <select className="border border-[#8C8C8C] rounded-[26px] h-14 px-5 text-[#000000] bg-white">
+          <select className="border  border-[var(--secondary-border)] rounded-[26px] h-14 px-5 text-[#000000] bg-white">
             <option value="">Select Type</option>
             <option value="factory">Factory</option>
             <option value="retailer">Retailer</option>
@@ -94,7 +94,7 @@ const BusinessDetails = () => {
               (Optional)
             </span>
           </label>
-          <label className="border border-[#8C8C8C] rounded-[26px] h-36 px-5 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
+          <label className="border  border-[var(--secondary-border)] rounded-[26px] h-36 px-5 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
             <input type="file" className="hidden" />
             <div className="flex flex-col items-center justify-center">
               <Image
@@ -116,7 +116,7 @@ const BusinessDetails = () => {
           <label className="text-[#000000] font-medium text-2xl mb-2 ml-3">
             Upload Business License
           </label>
-          <label className="border border-[#8C8C8C] rounded-[26px] h-36 px-5 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
+          <label className="border  border-[var(--secondary-border)] rounded-[26px] h-36 px-5 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
             <input type="file" className="hidden" />
             <div className="flex flex-col items-center justify-center">
               <Image

@@ -14,7 +14,7 @@ const SupplierVerify = () => {
           </label>
           <input
             type="text"
-            className="border border-[#8C8C8C] rounded-[26px] h-14 px-5 placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-[26px] h-14 px-5 placeholder-[#A8A8A8]"
             placeholder="Enter company name"
           />
         </div>
@@ -28,7 +28,7 @@ const SupplierVerify = () => {
           </label>
           <input
             type="text"
-            className="border border-[#8C8C8C] rounded-[26px] h-14 px-5 placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-[26px] h-14 px-5 placeholder-[#A8A8A8]"
             placeholder="Enter CR number"
           />
         </div>
@@ -37,7 +37,7 @@ const SupplierVerify = () => {
           <label className="text-[#000000] font-medium text-2xl mb-2 ml-3">
             How you know about us?
           </label>
-          <select className="border border-[#8C8C8C] rounded-[26px] h-14 px-5 text-[#000000] bg-white">
+          <select className="border  border-[var(--secondary-border)] rounded-[26px] h-14 px-5 text-[#000000] bg-white">
             <option value="">Select </option>
             <option value="social">Social Media</option>
             <option value="google">Google Search</option>

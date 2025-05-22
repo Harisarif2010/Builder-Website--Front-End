@@ -1,7 +1,13 @@
+"use client";
 import React from "react";
+import { useRouter } from "next//navigation";
 import { orders } from "@/app/data";
 import { roboto } from "@/app/fonts";
 const page = () => {
+  const router = useRouter();
+  const navigate = () => {
+    router.push("/SupplierDashboard/AddProduct");
+  };
   return (
     <>
       <h3 className="text-[#3B4758] text-2xl font-bold px-3 py-1">Orders</h3>
@@ -47,6 +53,7 @@ const page = () => {
       <div className="flex flex-row  justify-center md:justify-end items-end my-4">
         <button
           className={` ${roboto.variable}  bg-[var(--primary-blue)] text-white text-[13px] font-medium  rounded-[22px] h-14 flex justify-center items-center px-3`}
+          onClick={navigate}
         >
           Add New Product
         </button>

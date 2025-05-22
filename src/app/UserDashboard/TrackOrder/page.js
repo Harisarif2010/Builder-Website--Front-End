@@ -15,7 +15,7 @@ const Track = () => {
             <label className="text-black font-medium text-lg sm:text-xl md:text-[22px] mb-2 ml-3">
               Supplier
             </label>
-            <select className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#989898] ">
+            <select className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#989898] ">
               <option value="" className="text-[#989898]">
                 Select
               </option>
@@ -32,7 +32,7 @@ const Track = () => {
             </label>
             <input
               type="Date"
-              className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#989898]"
+              className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#989898]"
               placeholder="Select Date"
             />
           </div>
@@ -41,7 +41,7 @@ const Track = () => {
             <label className="text-[#000000] font-medium text-2xl mb-2 ml-3">
               Location
             </label>
-            <select className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#989898]">
+            <select className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#989898]">
               <option value="">Select Location</option>
               <option value="riyadh">Riyadh</option>
               <option value="jeddah">Jeddah</option>
@@ -67,7 +67,7 @@ const Track = () => {
             </label>
             <input
               type="text"
-              className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#989898]"
+              className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#989898]"
               placeholder="Enter Quantity"
             />
           </div>
@@ -75,7 +75,7 @@ const Track = () => {
             <label className="text-black font-medium text-lg sm:text-xl md:text-[22px] mb-2 ml-3">
               Unit
             </label>
-            <select className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#989898] ">
+            <select className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#989898] ">
               <option value="" className="text-[#989898]">
                 Select Unit
               </option>

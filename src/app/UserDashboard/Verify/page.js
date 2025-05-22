@@ -15,7 +15,7 @@ const Verify = () => {
 
           <input
             type="email"
-            className="border border-[#8C8C8C] rounded-[26px] h-14 px-5 placeholder-[#A8A8A8] w-1/2"
+            className="border  border-[var(--secondary-border)] rounded-[26px] h-14 px-5 placeholder-[#A8A8A8] w-1/2"
           />
         </div>
         {/* Email */}
@@ -28,7 +28,7 @@ const Verify = () => {
           </label>
           <input
             type="string"
-            className="border border-[#8C8C8C] rounded-[26px] h-14 px-5 placeholder-[#A8A8A8] w-1/2"
+            className="border  border-[var(--secondary-border)] rounded-[26px] h-14 px-5 placeholder-[#A8A8A8] w-1/2"
           />
         </div>
         <div className=" w-full flex  justify-end ">

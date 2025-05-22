@@ -23,7 +23,7 @@ const CompanySignup = () => {
           </label>
           <input
             type="text"
-            className="border border-[#8C8C8C] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Enter company name"
           />
         </div>
@@ -35,7 +35,7 @@ const CompanySignup = () => {
           </label>
           <input
             type="email"
-            className="border border-[#8C8C8C] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Enter company email"
           />
         </div>
@@ -47,7 +47,7 @@ const CompanySignup = () => {
           </label>
           <input
             type="tel"
-            className="border border-[#8C8C8C] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Enter company phone"
           />
         </div>
@@ -59,7 +59,7 @@ const CompanySignup = () => {
           </label>
           <input
             type="password"
-            className="border border-[#8C8C8C] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Enter a password"
           />
         </div>
@@ -71,7 +71,7 @@ const CompanySignup = () => {
           </label>
           <input
             type="password"
-            className="border border-[#8C8C8C] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Confirm your password"
           />
         </div>
@@ -81,7 +81,7 @@ const CompanySignup = () => {
           <label className="text-black font-medium text-lg sm:text-xl md:text-2xl mb-2 ml-3">
             City
           </label>
-          <select className="border border-[#8C8C8C] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base text-black bg-white">
+          <select className="border  border-[var(--secondary-border)] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base text-black bg-white">
             <option value="">Select City</option>
             <option value="riyadh">Riyadh</option>
             <option value="jeddah">Jeddah</option>
@@ -108,7 +108,7 @@ const CompanySignup = () => {
           </label>
           <input
             type="text"
-            className="border border-[#8C8C8C] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-full h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Enter CR number"
           />
         </div>
@@ -121,7 +121,7 @@ const CompanySignup = () => {
               (Optional)
             </span>
           </label>
-          <label className="border border-[#8C8C8C] rounded-3xl h-24 sm:h-32 md:h-36 px-4 sm:px-5 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
+          <label className="border  border-[var(--secondary-border)] rounded-3xl h-24 sm:h-32 md:h-36 px-4 sm:px-5 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
             <input type="file" className="hidden" />
 
             <div className="flex flex-col items-center justify-center">

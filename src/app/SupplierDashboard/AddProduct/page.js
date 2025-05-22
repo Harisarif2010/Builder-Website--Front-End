@@ -19,7 +19,7 @@ const AddProduct = () => {
 
               <input
                 type="text"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Enter Product Name"
               />
             </div>
@@ -30,7 +30,7 @@ const AddProduct = () => {
 
               <input
                 type="text"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Enter your company"
               />
             </div>
@@ -42,7 +42,7 @@ const AddProduct = () => {
 
               <input
                 type="text"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Enter Price"
               />
             </div>
@@ -53,7 +53,7 @@ const AddProduct = () => {
               </label>
               <input
                 type="text"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Enter Quantity"
               />
             </div>
@@ -61,7 +61,7 @@ const AddProduct = () => {
               <label className="text-[#000000] font-bold text-[13px] mb-2 ml-1">
                 Upload Product Image
               </label>
-              <label className="border border-[#8C8C8C] rounded-[11px] h-36 px-5 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
+              <label className="border  border-[var(--secondary-border)] rounded-[11px] h-36 px-5 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
                 <input type="file" className="hidden" />
                 <div className="flex flex-col items-center justify-center">
                   <Image

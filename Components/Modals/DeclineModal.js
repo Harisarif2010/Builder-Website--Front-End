@@ -37,7 +37,7 @@ export const DeclineModal = ({ isOpen, onClose }) => {
             </span>
             <button
               onClick={() => setOpen(!open)}
-              className="flex justify-between items-center w-4/5 px-4 py-2 border border-[#BBBBBB] rounded-[11px] text-sm font-medium focus:outline-none"
+              className="flex justify-between items-center w-4/5 px-4 py-2 border  border-[var(--primary-border)] rounded-[11px] text-sm font-medium focus:outline-none"
             >
               {selected}
               <ChevronDown size={25} className="ml-2 text-[#646464]" />

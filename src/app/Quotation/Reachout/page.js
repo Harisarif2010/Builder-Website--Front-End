@@ -12,7 +12,7 @@ const Contact = () => {
           </label>
           <input
             type="text"
-            className="border border-[#8C8C8C] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Enter company name"
           />
         </div>
@@ -24,7 +24,7 @@ const Contact = () => {
           </label>
           <input
             type="email"
-            className="border border-[#8C8C8C] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Enter company email"
           />
         </div>
@@ -39,7 +39,7 @@ const Contact = () => {
           </label>
           <input
             type="tel"
-            className="border border-[#8C8C8C] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Enter company phone"
           />
         </div>
@@ -51,7 +51,7 @@ const Contact = () => {
           </label>
           <input
             type="email"
-            className="border border-[#8C8C8C] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Enter company email"
           />
         </div>
@@ -63,7 +63,7 @@ const Contact = () => {
           </label>
           <input
             type="password"
-            className="border border-[#8C8C8C] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Confirm your password"
           />
         </div>
@@ -73,7 +73,7 @@ const Contact = () => {
           <label className="text-black font-medium text-lg sm:text-xl md:text-[22px] mb-2 ml-3">
             City
           </label>
-          <select className="border border-[#8C8C8C] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base text-black bg-white ">
+          <select className="border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 text-sm sm:text-base text-black bg-white ">
             <option value="" className="text-[#A8A8A8]">
               Select Contact Method
             </option>
@@ -91,7 +91,7 @@ const Contact = () => {
           </label>
           <textarea
             type="text"
-            className="border border-[#8C8C8C] rounded-[31px] h-10 sm:h-12 md:h-28 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
+            className="border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-28 px-4 sm:px-5 text-sm sm:text-base placeholder-[#A8A8A8]"
             placeholder="Enter CR number"
           />
         </div>

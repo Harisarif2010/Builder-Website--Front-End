@@ -72,11 +72,11 @@ const CartProduct = () => {
             </div>
           </div>
           <div className={`${poppins.variable} px-2 text-[20px] font-bold`}>
-            <h2 className="  text-black">Order Summary:</h2>
-            <ul>
-              <li>Subtotal:$460.00</li>
-              <li>Subtotal:$460.00</li>
-              <li>Subtotal:$460.00</li>
+            <h2 className="text-black">Order Summary:</h2>
+            <ul className="list-disc pl-5">
+              <li>Subtotal: $460.00</li>
+              <li>Tax: $20.00</li>
+              <li>Total: $480.00</li>
             </ul>
           </div>
         </div>

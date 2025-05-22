@@ -24,7 +24,7 @@ const Permisson = () => {
             <div className="relative w-full">
               <input
                 type="text"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Enter company name"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -40,7 +40,7 @@ const Permisson = () => {
             <div className="relative w-full">
               <input
                 type="email"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Enter company email"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -56,7 +56,7 @@ const Permisson = () => {
             <div className="relative w-full">
               <input
                 type="text"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Confirm your password"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -72,7 +72,7 @@ const Permisson = () => {
             <div className="relative w-full">
               <input
                 type="text"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Enter company email"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -88,7 +88,7 @@ const Permisson = () => {
             <div className="relative w-full">
               <input
                 type="text"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Confirm your password"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -104,7 +104,7 @@ const Permisson = () => {
             <div className="relative w-full">
               <input
                 type="text"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Enter your city"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">

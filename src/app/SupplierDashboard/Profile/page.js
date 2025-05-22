@@ -21,7 +21,7 @@ const EmployeePermission = () => {
             <div className="relative w-full">
               <input
                 type="text"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Enter company name"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -36,7 +36,7 @@ const EmployeePermission = () => {
             <div className="relative w-full">
               <input
                 type="email"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Enter company email"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -51,7 +51,7 @@ const EmployeePermission = () => {
             <div className="relative w-full">
               <input
                 type="email"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Enter company email"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -66,7 +66,7 @@ const EmployeePermission = () => {
             <div className="relative w-full">
               <input
                 type="text"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Enter company email"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -81,7 +81,7 @@ const EmployeePermission = () => {
             <div className="relative w-full">
               <input
                 type="text"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Enter Plan"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -98,7 +98,7 @@ const EmployeePermission = () => {
             <div className="relative w-full">
               <input
                 type="text"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Confirm your password"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -113,7 +113,7 @@ const EmployeePermission = () => {
             <div className="relative w-full">
               <input
                 type="text"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Enter Tax Number"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -128,7 +128,7 @@ const EmployeePermission = () => {
             <div className="relative w-full">
               <input
                 type="text"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Enter your city"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -140,7 +140,7 @@ const EmployeePermission = () => {
             <label className="text-[#000000] font-bold text-[13px] mb-2 ml-1">
               CR File
             </label>
-            <label className="border border-[#8C8C8C] rounded-[11px] h-36 px-5 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
+            <label className="border  border-[var(--secondary-border)] rounded-[11px] h-36 px-5 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
               <input type="file" className="hidden" />
               <div className="flex flex-col items-center justify-center">
                 <Image
@@ -157,7 +157,7 @@ const EmployeePermission = () => {
             <label className="text-[#000000] font-bold text-[13px] mb-2 ml-1">
               Tax Registration Certificates
             </label>
-            <label className="border border-[#8C8C8C] rounded-[11px] h-36 px-5 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
+            <label className="border  border-[var(--secondary-border)] rounded-[11px] h-36 px-5 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
               <input type="file" className="hidden" />
               <div className="flex flex-col items-center justify-center">
                 <Image
@@ -175,7 +175,7 @@ const EmployeePermission = () => {
               Mission Statement
             </label>
             <textarea
-              className="w-full border border-[#8C8C8C] rounded-[11px] h-28 sm:h-20 md:h-36 px-4 sm:px-5 py-2 text-sm sm:text-base placeholder-[#989898] resize-none"
+              className="w-full border  border-[var(--secondary-border)] rounded-[11px] h-28 sm:h-20 md:h-36 px-4 sm:px-5 py-2 text-sm sm:text-base placeholder-[#989898] resize-none"
               placeholder="Type here..."
             />
           </div>
@@ -194,7 +194,7 @@ const EmployeePermission = () => {
             <div className="relative w-full">
               <input
                 type="text"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Enter Bank Name"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -209,7 +209,7 @@ const EmployeePermission = () => {
             <div className="relative w-full">
               <input
                 type="text"
-                className="w-full border border-[#BBBBBB] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
+                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
                 placeholder="Enter Bank Account"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
