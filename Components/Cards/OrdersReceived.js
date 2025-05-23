@@ -24,7 +24,7 @@ const OrdersReceived = ({ type = "order" }) => {
   return (
     <div className="bg-white shadow-lg rounded-xl p-6 w-full max-w-2xl mx-auto">
       {/* Header */}
-      <div className="flex justify-between items-center border-b border-[#CACACA]  pb-4 mb-4">
+      <div className="w-full flex justify-between items-center border-b border-[#CACACA]  pb-4 mb-4  ">
         <h2 className="text-lg font-semibold">{title}</h2>
         <div className="bg-[var(--primary-blue)] flex justify-center items-center rounded-md h-9 w-9">
           {" "}
