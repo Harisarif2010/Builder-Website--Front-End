@@ -22,7 +22,7 @@ const SupplierVerify = () => {
         <div className="flex flex-col">
           <label className="text-[#000000] font-medium text-2xl mb-2 ml-3">
             Referral Code
-            <span className="text-[#7B7B7B] text-xl font-medium">
+            <span className="text-[var(--grey-text)] text-xl font-medium">
               ( Optional )
             </span>
           </label>
@@ -63,7 +63,7 @@ const SupplierVerify = () => {
           <button className=" bg-[var(--primary-blue)] text-white text-[26px] font-semibold px-6  rounded-[18px] h-10 flex items-center ">
             <ArrowLeft size={25} className="ml-1" /> Back
           </button>
-          <span className="text-[#7B7B7B] text-lg font-medium">
+          <span className="text-[var(--grey-text)] text-lg font-medium">
             ( Return to Step 1 )
           </span>
         </div>

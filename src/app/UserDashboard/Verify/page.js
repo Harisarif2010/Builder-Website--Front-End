@@ -8,7 +8,7 @@ const Verify = () => {
         <div className="flex flex-col my-3 ml-6">
           <label className="text-[#000000] font-medium text-2xl mb-2 ml-3">
             OTP Code
-            <span className="text-[#7B7B7B] text-xl font-medium">
+            <span className="text-[var(--grey-text)] text-xl font-medium">
               ( Sent via email/ SMS for verification )
             </span>
           </label>
@@ -22,7 +22,7 @@ const Verify = () => {
         <div className="flex flex-col  my-3 ml-6">
           <label className="text-[#000000] font-medium text-2xl mb-2 ml-3">
             Referral Code
-            <span className="text-[#7B7B7B] text-xl font-medium">
+            <span className="text-[var(--grey-text)] text-xl font-medium">
               ( Optional )
             </span>
           </label>

@@ -62,7 +62,7 @@ const BusinessDetails = () => {
         <div className="flex flex-col">
           <label className="text-[#000000] font-medium text-2xl mb-2 ml-3">
             Company Website
-            <span className="text-[#7B7B7B] text-xl font-medium">
+            <span className="text-[var(--grey-text)] text-xl font-medium">
               ( Optional )
             </span>
           </label>
@@ -90,7 +90,7 @@ const BusinessDetails = () => {
         <div className="flex flex-col">
           <label className="text-[#000000] font-medium text-2xl mb-2 ml-3">
             Upload Sample Product{" "}
-            <span className="text-[#7B7B7B] text-xl font-medium">
+            <span className="text-[var(--grey-text)] text-xl font-medium">
               (Optional)
             </span>
           </label>
@@ -140,7 +140,7 @@ const BusinessDetails = () => {
           <button className="bg-blue-600 text-white text-base sm:text-lg md:text-xl font-semibold w-full sm:w-auto px-4 py-2 sm:px-6 sm:py-3 rounded-full flex items-center gap-2 justify-center">
             Back <ArrowLeft color="white" />
           </button>
-          <span className="text-[#7B7B7B] text-lg font-medium">
+          <span className="text-[var(--grey-text)] text-lg font-medium">
             ( Return to Step 1 )
           </span>
         </div>

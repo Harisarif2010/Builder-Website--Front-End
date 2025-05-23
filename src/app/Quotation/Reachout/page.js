@@ -33,7 +33,7 @@ const Contact = () => {
         <div className="flex flex-col">
           <label className="text-black font-medium text-lg sm:text-xl md:text-[22px] mb-2 ml-3">
             Company Name{" "}
-            <span className="text-[#7B7B7B] text-xl font-medium italic">
+            <span className="text-[var(--grey-text)] text-xl font-medium italic">
               (Optional)
             </span>
           </label>

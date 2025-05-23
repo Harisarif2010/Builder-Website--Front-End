@@ -15,6 +15,7 @@
   --green: #006c35;
   --primary-border: #bbbbbb;
   --secondary-border: #8c8c8c;
+  --grey-text: #7b7b7b;
 }
 
 @media (prefers-color-scheme: dark) {
