@@ -4,7 +4,7 @@ import React from "react";
 const Review = () => {
   return (
     <div className="p-4 sm:p-6 md:p-8 max-w-7xl mx-auto">
-      <h1 className="text-5xl font-bold text-[#000000] mb-8 text-center">
+      <h1 className="text-3xl md:text-5xl font-bold text-[#000000] mb-8 text-center">
         Review Application
       </h1>
       <div className="grid gap-x-4 sm:gap-x-5 gap-y-5 sm:gap-y-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">

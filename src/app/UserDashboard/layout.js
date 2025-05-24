@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
           {/* Main content */}
           <div className="flex-1 flex flex-col min-h-screen  bg-[#EEF0F4]">
             {/* Topbar */}
-            <div className="flex  justify-end items-center p-3 my-3 mx-3 bg-white rounded-[13px] h-1/5">
+            <div className="flex  justify-end items-center p-2 mt-2 mx-3 bg-white rounded-[13px] md:h-24">
               {/* icons */}
               <div className="flex gap-x-7">
                 <ThemeToggle />

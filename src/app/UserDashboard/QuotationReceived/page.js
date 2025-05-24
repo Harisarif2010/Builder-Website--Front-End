@@ -11,6 +11,9 @@ const Received = () => {
   return (
     <>
       {" "}
+      <h3 className="text-[#3B4758] text-2xl font-bold px-3 py-1">
+        Quotation Request
+      </h3>
       <div className="bg-white p-6 rounded-[22px] shadow-lg my-3">
         <h2 className="text-[17px] font-bold mb-4">Request Send List</h2>
         <div className="overflow-x-auto">

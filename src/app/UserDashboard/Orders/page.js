@@ -4,7 +4,10 @@ import { orders } from "@/app/data";
 const page = () => {
   return (
     <>
-      <h3 className="text-[#3B4758] text-2xl font-bold px-3 py-1">Orders</h3>
+      {" "}
+      <h3 className="text-[#3B4758] text-lg md:text-2xl font-bold px-3 py-1">
+        Orders
+      </h3>
       <div className="bg-white p-6 rounded-[22px] shadow-lg my-3">
         <h2 className="text-[17px] font-bold mb-4">Orders Table</h2>
 

@@ -6,8 +6,10 @@ import { roboto } from "@/app/fonts";
 const Profile = () => {
   return (
     <div className={roboto.className}>
-      <h3 className="text-[#3B4758] text-2xl font-bold px-3 py-1">Profile</h3>
-      <div className="bg-white rounded-[22px] p-3">
+      <h3 className="text-[#3B4758] text-lg md:text-2xl font-bold px-3 py-1">
+        Profile
+      </h3>
+      <div className="bg-white rounded-[22px] p-3 my-3">
         <div
           className={
             "grid gap-x-4 sm:gap-x-5 gap-y-5 sm:gap-y-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 "
@@ -141,7 +143,7 @@ const Profile = () => {
             </div>
           </div>
           <div className="flex flex-col mt-3">
-            <label className="text-[#000000] font-bold text-2xl mb-2 ml-1">
+            <label className="text-black font-bold text-xs sm:text-xl md:text-[13px] mb-2 ml-1">
               CR File
             </label>
             <label className="border  border-[var(--secondary-border)] rounded-[26px] h-36 px-5 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
@@ -158,7 +160,7 @@ const Profile = () => {
             </label>
           </div>
           <div className="flex flex-col mt-3">
-            <label className="text-[#000000] font-bold text-2xl mb-2 ml-1">
+            <label className="text-black font-bold text-xs sm:text-xl md:text-[13px] mb-2 ml-1">
               Tax Registration Certificates
             </label>
             <label className="border  border-[var(--secondary-border)] rounded-[26px] h-36 px-5 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
@@ -175,7 +177,7 @@ const Profile = () => {
             </label>
           </div>
           <div className="flex flex-col mt-3">
-            <label className="text-[#000000] font-bold text-2xl mb-2 ml-1">
+            <label className="text-black font-bold text-xs sm:text-xl md:text-[13px] mb-2 ml-1">
               National Address
             </label>
             <label className="border  border-[var(--secondary-border)] rounded-[26px] h-36 px-5 cursor-pointer flex flex-col items-center justify-center gap-2 bg-white hover:bg-gray-50 transition">
@@ -183,8 +185,8 @@ const Profile = () => {
               <div className="flex flex-col items-center justify-center">
                 <Image
                   src="/icons/upload.svg"
-                  width={30}
-                  height={30}
+                  width={40}
+                  height={40}
                   alt="Upload"
                   className="border rounded-full p-2 bg-[#2B44E11C]"
                 />

@@ -13,12 +13,14 @@ const Permisson = () => {
   };
   return (
     <>
-      <h3 className="text-[#3B4758] text-2xl font-bold px-3 py-1">Profile</h3>{" "}
+      <h3 className="text-[#3B4758] text-lg md:text-2xl font-bold px-3 py-1">
+        Profile
+      </h3>{" "}
       <div className="bg-white rounded-[22px] p-5">
         <div className="grid gap-x-4 sm:gap-x-5 gap-y-5 sm:gap-y-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">
           {/* Full Name */}
           <div className="flex flex-col">
-            <label className="text-black font-bold text-[13px] sm:text-xl md:text-[13px] mb-2 ml-1">
+            <label className="text-black font-bold text-[13px]  md:text-[13px] mb-2 ml-1">
               Name
             </label>
             <div className="relative w-full">
@@ -34,7 +36,7 @@ const Permisson = () => {
           </div>
           {/* Position */}
           <div className="flex flex-col">
-            <label className="text-black font-bold text-[13px] sm:text-xl md:text-[13px] mb-2 ml-1">
+            <label className="text-black font-bold text-[13px]  md:text-[13px] mb-2 ml-1">
               Email
             </label>
             <div className="relative w-full">
@@ -50,7 +52,7 @@ const Permisson = () => {
           </div>
           {/* Company Name (Optional) */}
           <div className="flex flex-col">
-            <label className="text-black font-bold text-xs sm:text-xl md:text-[13px] mb-2 ml-1">
+            <label className="text-black font-bold text-xs  md:text-[13px] mb-2 ml-1">
               City
             </label>
             <div className="relative w-full">
@@ -66,7 +68,7 @@ const Permisson = () => {
           </div>
           {/* Email Address */}
           <div className="flex flex-col">
-            <label className="text-black font-bold text-xs sm:text-xl md:text-[13px] mb-2 ml-1">
+            <label className="text-black font-bold text-xs  md:text-[13px] mb-2 ml-1">
               Mobile No
             </label>
             <div className="relative w-full">
@@ -82,7 +84,7 @@ const Permisson = () => {
           </div>
           {/* Mobile */}
           <div className="flex flex-col">
-            <label className="text-black font-bold text-[13px] sm:text-xl md:text-[13px] mb-2 ml-1">
+            <label className="text-black font-bold text-[13px]  md:text-[13px] mb-2 ml-1">
               Role
             </label>
             <div className="relative w-full">
@@ -98,7 +100,7 @@ const Permisson = () => {
           </div>
           {/* City (Input instead of Select) */}
           <div className="flex flex-col">
-            <label className="text-black font-bold text-[13px] sm:text-xl md:text-[13px] mb-2 ml-1">
+            <label className="text-black font-bold text-[13px]  md:text-[13px] mb-2 ml-1">
               Company Name
             </label>
             <div className="relative w-full">
