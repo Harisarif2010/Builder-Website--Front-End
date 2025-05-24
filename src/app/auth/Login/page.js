@@ -9,28 +9,44 @@ const Login = () => {
     password: "",
   });
 
-  const handleSubmit = () => {};
-  const handleChange = () => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+
+  const handleSubmit = () => {
+    // handle login logic
+    console.log(formData);
+  };
+
   return (
-    <div className="bg-[#FFFFFF]  flex flex-row h-[70vh]">
-      <div className="w-1/2  relative rounded-r-[18px]  ">
+    <div className="bg-[#FFFFFF] flex flex-col sm:flex-row min-h-screen sm:h-[70vh]">
+      {/* Image Section - Hidden on Mobile */}
+      <div className="w-full sm:w-1/2 relative rounded-r-[18px] hidden sm:block">
         <Image
           alt="main"
           src="/images/Login.jpg"
           fill
-          className="rounded-r-[18px]"
+          className="rounded-r-[18px] object-cover"
         />
-
         <div
-          className="absolute inset-0  mix-blend-multiply opacity-80 pointer-events-none rounded-r-[18px] "
-          style={{ background: " rgba(53, 78, 243, 0.46) " }}
+          className="absolute inset-0 mix-blend-multiply opacity-80 pointer-events-none rounded-r-[18px]"
+          style={{ background: "rgba(53, 78, 243, 0.46)" }}
         ></div>
       </div>
 
-      <div className="w-2/3 flex flex-col ml-14 justify-start mt-10">
-        <h1 className="text-5xl text-black font-bold">Log in</h1>
-        <div className="mt-5">
-          <label className="block text-xl font-medium mb-1 text-[#000000]">
+      {/* Form Section */}
+      <div className="w-full sm:w-2/3 flex flex-col justify-center items-center sm:items-start px-6 sm:ml-14 mt-10 sm:mt-0">
+        <h1 className="text-4xl sm:text-5xl text-black font-bold mb-6">
+          Log in
+        </h1>
+
+        {/* Email Field */}
+        <div className="mb-5 w-full sm:w-2/4">
+          <label className="block text-base sm:text-xl font-medium mb-1 text-[#000000]">
             Email
           </label>
           <input
@@ -38,14 +54,14 @@ const Login = () => {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="w-2/4 border border-[#9D9D9D] rounded-[26px] px-4 py-2 text-lg focus:outline-none focus:ring-2 focus:ring-[#DFB89F] text-black  placeholder:text-[#828282]"
+            className="w-full border border-[#9D9D9D] rounded-[26px] px-4 py-2 text-base sm:text-lg focus:outline-none focus:ring-2 focus:ring-[#DFB89F] text-black placeholder:text-[#828282]"
             placeholder="Enter your email"
           />
         </div>
 
-        {/* Password */}
-        <div className="mt-5">
-          <label className="block text-xl font-medium mb-1 text-[#000000]">
+        {/* Password Field */}
+        <div className="mb-5 w-full sm:w-2/4">
+          <label className="block text-base sm:text-xl font-medium mb-1 text-[#000000]">
             Password
           </label>
           <input
@@ -53,43 +69,44 @@ const Login = () => {
             name="password"
             value={formData.password}
             onChange={handleChange}
-            className="w-2/4 border border-[#9D9D9D] rounded-[26px] px-4 py-2 text-lg focus:outline-none focus:ring-2 focus:ring-[#DFB89F] placeholder:text-[#828282] text-black"
+            className="w-full border border-[#9D9D9D] rounded-[26px] px-4 py-2 text-base sm:text-lg focus:outline-none focus:ring-2 focus:ring-[#DFB89F] placeholder:text-[#828282] text-black"
             placeholder="Enter your password"
           />
         </div>
 
-        <div className="flex items-center  gap-3 text-sm mt-2 w-2/4">
-          {/* Remember Me */}
-          <label className="flex items-center text-[#000000] text-[20px] font-medium">
+        {/* Remember Me + Forgot Password */}
+        <div className="flex items-center gap-3 text-sm mb-4 w-full sm:w-2/4 flex-wrap justify-between">
+          <label className="flex items-center text-[#000000] text-[16px] font-medium">
             <input
               type="checkbox"
-              className="w-4 h-4  text-[var(--primary-blue)] focus:ring-[#354EF3]"
+              className="w-4 h-4 mr-2 text-[var(--primary-blue)] focus:ring-[#354EF3]"
             />
             Remember me
           </label>
 
-          {/* Forgot Password */}
           <Link
-            className=" text-[var(--primary-blue)] hover:underline font-medium"
+            className="text-[var(--primary-blue)] hover:underline font-medium text-[16px]"
             href="/auth/ForgotPassword"
           >
             Forgot password?
           </Link>
         </div>
 
-        <div className="text-xl mt-6 text-[#000000] font-medium w-2/4">
+        {/* Register Link */}
+        <div className="text-base sm:text-xl mb-6 text-[#000000] font-medium w-full sm:w-2/4">
           Don’t have an account?{" "}
           <Link
             href="/auth/Signup"
-            className=" text-[var(--primary-blue)] font-medium hover:underline"
+            className="text-[var(--primary-blue)] font-medium hover:underline"
           >
             Register Now
           </Link>
         </div>
 
+        {/* Login Button */}
         <button
           type="submit"
-          className="w-1/4  bg-[var(--primary-blue)] text-white py-2 font-semibold text-lg  transition-all rounded-[35px] mt-10 cursor-pointer"
+          className="w-full sm:w-1/4 bg-[var(--primary-blue)] text-white py-2 font-semibold text-base sm:text-lg transition-all rounded-[35px] cursor-pointer"
           onClick={handleSubmit}
         >
           Login

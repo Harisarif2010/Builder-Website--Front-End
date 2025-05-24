@@ -1,7 +1,6 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { Poppins } from "next/font/google";
 import { useState } from "react";
 
 import Footer from "../../../Components/Layout/Footer";
@@ -14,7 +13,6 @@ export default function Layout({ children }) {
   const handleChange = (value) => {
     setSelectedOption(value);
 
-    // Navigate based on selection
     if (value === "bank") {
       router.push("/Payment/BankTransfer");
     } else if (value === "card") {
@@ -31,13 +29,14 @@ export default function Layout({ children }) {
         text="Complete your transactions safely with our integrated payment gateway, real time confirmation"
       />
 
-      <h1 className="text-[#000000] font-bold text-5xl text-center p-4">
+      <h1 className="text-[#000000] font-bold text-4xl sm:text-5xl text-center p-4">
         Select Payment Method
       </h1>
 
-      <div className="w-full flex flex-row  justify-center gap-4 p-3 ">
-        <div className="w-full md:w-[28vw] border border-[#999999] rounded-[22px] p-4 h-16 cursor-pointer">
-          <label className="flex items-center gap-2 text-[#000000] text-[26px] font-medium">
+      <div className="w-full flex flex-col sm:flex-row justify-center gap-4 p-4">
+        {/* Bank Transfer Option */}
+        <div className="w-full sm:w-[28vw] border border-[#999999] rounded-[22px] p-4 h-20 cursor-pointer">
+          <label className="flex items-center gap-2 text-[#000000] text-[22px] sm:text-[26px] font-medium">
             <input
               type="radio"
               name="payment_option"
@@ -49,8 +48,9 @@ export default function Layout({ children }) {
           </label>
         </div>
 
-        <div className="w-full md:w-[28vw] border border-[#999999] rounded-[22px] p-4 h-16 cursor-pointer">
-          <label className="flex items-center gap-2 text-[#000000] text-[26px] font-medium">
+        {/* Credit Card Option */}
+        <div className="w-full sm:w-[28vw] border border-[#999999] rounded-[22px] p-4 h-20 cursor-pointer">
+          <label className="flex items-center gap-2 text-[#000000] text-[22px] sm:text-[26px] font-medium">
             <input
               type="radio"
               name="payment_option"
@@ -62,8 +62,9 @@ export default function Layout({ children }) {
           </label>
         </div>
 
-        <div className="w-full md:w-[28vw] border border-[#999999] rounded-[22px] p-4 h-16 cursor-pointer">
-          <label className="flex items-center gap-2 text-[#000000] text-[26px] font-medium">
+        {/* Binaya Pay Later Option */}
+        <div className="w-full sm:w-[28vw] border border-[#999999] rounded-[22px] p-4 h-20 cursor-pointer">
+          <label className="flex items-center gap-2 text-[#000000] text-[22px] sm:text-[26px] font-medium">
             <input
               type="radio"
               name="payment_option"
