@@ -185,8 +185,8 @@ const Profile = () => {
               <div className="flex flex-col items-center justify-center">
                 <Image
                   src="/icons/upload.svg"
-                  width={40}
-                  height={40}
+                  width={30}
+                  height={30}
                   alt="Upload"
                   className="border rounded-full p-2 bg-[#2B44E11C]"
                 />

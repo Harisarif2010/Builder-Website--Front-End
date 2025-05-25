@@ -9,7 +9,7 @@ const page = () => {
         Orders
       </h3>
       <div className="bg-white p-6 rounded-[22px] shadow-lg my-3">
-        <h2 className="text-[17px] font-bold mb-4">Orders Table</h2>
+        <h2 className="text-sm md:text-[17px] font-bold mb-4">Orders Table</h2>
 
         <div className="overflow-x-auto">
           <table className="min-w-[700px] w-full text-left text-sm text-[#000000]">

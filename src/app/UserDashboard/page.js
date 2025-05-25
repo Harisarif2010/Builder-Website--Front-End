@@ -27,20 +27,22 @@ const Dashboard = () => {
   });
   return (
     <div>
-      <div className="flex justify-between px-2 py-1">
+      <div className="flex flex-col md:flex-row md:justify-between px-2 py-1">
         {" "}
-        <h3 className="text-[#3B4758] text-2xl font-bold  py-1">Dashboard</h3>
-        <div className="flex  gap-x-3">
+        <h3 className="text-[#3B4758] text-lg md:text-2xl font-bold  py-1">
+          Dashboard
+        </h3>
+        <div className="flex justify-center gap-x-3 ">
           {/* Back Button */}
           <button
             onClick={() => {
               router.push("/UserDashboard/InviteSupplier");
             }}
-            className="flex items-center justify-center  text-[var(--primary-blue)] text-[20px] font-semibold px-3 py-3 border border-[#354EF3] rounded-[22px] h-12 cursor-pointer"
+            className="flex items-center justify-center  text-[var(--primary-blue)] text-sm md:text-[20px] font-semibold px-3 py-3 border border-[#354EF3] rounded-[22px] h-12 cursor-pointer"
           >
             Invite New Supplier
           </button>
-          <button className="flex items-center justify-center bg-[var(--secondary-blue)] text-white text-[20px] font-semibold px-3 py-3 rounded-[22px] h-12">
+          <button className="flex items-center justify-center bg-[var(--secondary-blue)] text-white  text-sm md:text-[20px] font-semibold px-3 py-3 rounded-[22px] h-12">
             Request Quote
           </button>
         </div>
@@ -62,7 +64,7 @@ const Dashboard = () => {
               />
             </div>
           </div>
-          <h2 className="text-2xl text-[#3B4758] font-bold">
+          <h2 className="text-lg md:text-2xl text-[#3B4758] font-bold">
             48 Pending Quotes
           </h2>
           <p className="text-[#0A7D5A] font-normal text-[12px] py-3">
@@ -88,7 +90,9 @@ const Dashboard = () => {
               />
             </div>
           </div>
-          <h2 className="text-2xl text-[#3B4758] font-bold">$ 3,503.26</h2>
+          <h2 className="text-lg md:text-2xl text-[#3B4758] font-bold">
+            $ 3,503.26
+          </h2>
           <p className="text-[#0A7D5A] font-normal text-[12px] py-3">
             +6.50%{" "}
             <span className="text-[#586A84] font-normal text-[12px]">
@@ -112,7 +116,7 @@ const Dashboard = () => {
               />
             </div>
           </div>
-          <h2 className="text-2xl text-[#3B4758] font-bold ">
+          <h2 className="text-lg md:text-2xl text-[#3B4758] font-bold ">
             8 Active Orders
           </h2>
         </div>
@@ -125,7 +129,7 @@ const Dashboard = () => {
               <Bell color="white" size={20} />
             </div>
           </div>
-          <h2 className="text-2xl text-[#3B4758] font-bold pb-4">
+          <h2 className=" text-lg md:text-2xl text-[#3B4758] font-bold pb-4">
             New Suppliers Respond on Quote #ID 1023
           </h2>
         </div>

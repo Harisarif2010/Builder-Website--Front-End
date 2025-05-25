@@ -2,6 +2,7 @@ import { Bell, Settings, Search } from "lucide-react";
 import { poppins, roboto, inter } from "../fonts";
 import SupplierSidebar from "../../../Components/Layout/SupplierSidebar";
 import ThemeToggle from "../theme/Themetoggle";
+import MobileSidebarModal from "../../../Components/Modals/SupplierModal";
 
 export default function RootLayout({ children }) {
   return (
@@ -29,6 +30,9 @@ export default function RootLayout({ children }) {
 
               {/* icons */}
               <div className="flex justify-end gap-x-4 md:gap-x-6">
+                <div className="md:hidden fixed top-14 left-4 z-50">
+                  <MobileSidebarModal />
+                </div>
                 <ThemeToggle />
                 <Bell color="#586A84" height={20} width={20} />
                 <Settings color="#586A84" height={20} width={20} />

@@ -2,6 +2,7 @@ import Sidebar from "../../../Components/Layout/Sidebar";
 import { Bell, Settings, ShoppingCart } from "lucide-react";
 import { poppins, roboto, inter } from "../fonts";
 import ThemeToggle from "../theme/Themetoggle";
+import MobileUserSidebarModal from "../../../Components/Modals/SidebarModal";
 
 export default function RootLayout({ children }) {
   return (
@@ -12,11 +13,14 @@ export default function RootLayout({ children }) {
           <Sidebar />
 
           {/* Main content */}
-          <div className="flex-1 flex flex-col min-h-screen  bg-[#EEF0F4]">
+          <div className="flex-1 flex flex-col min-h-[100dvh] bg-[#EEF0F4]">
             {/* Topbar */}
-            <div className="flex  justify-end items-center p-2 mt-2 mx-3 bg-white rounded-[13px] md:h-24">
+            <div className="flex  justify-end items-center p-2 mt-2 mx-3 bg-white rounded-[13px] h-15">
               {/* icons */}
               <div className="flex gap-x-7">
+                <div className="md:hidden fixed top-6 left-4 z-50">
+                  <MobileUserSidebarModal />
+                </div>
                 <ThemeToggle />
                 <Bell color="#586A84" height={20} width={20} />
                 <Settings color="#586A84" height={20} width={20} />
