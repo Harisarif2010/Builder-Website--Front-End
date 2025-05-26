@@ -299,7 +299,12 @@ const page = () => {
 
                   <td className="py-3 px-4">
                     <div className="flex items-center gap-3">
-                      <Image src="/icons/check.svg" width={12} height={12} />
+                      <Image
+                        src="/icons/check.svg"
+                        width={12}
+                        height={12}
+                        alt="check"
+                      />
                       <Trash2
                         size={12}
                         className="text-[#9A2B2B] cursor-pointer"

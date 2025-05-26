@@ -3,7 +3,7 @@ import React from "react";
 import { useRouter } from "next/navigation";
 import { orders } from "@/app/data";
 import { roboto } from "@/app/fonts";
-const page = () => {
+const Orders = () => {
   const router = useRouter();
   const navigate = () => {
     router.push("/SupplierDashboard/AddProduct");
@@ -62,4 +62,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Orders;
