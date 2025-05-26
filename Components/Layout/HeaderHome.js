@@ -51,8 +51,8 @@ export default function HeaderHome() {
             <CustomDropdown
               label="Products"
               items={[
-                { label: "Products", href: "/products/category1" },
-                { label: "Brands", href: "/products/category2" },
+                { label: "Products", href: "/Products" },
+                { label: "Brands", href: "/Brands" },
               ]}
             />
             <Link href="/About" className="text-white hover:text-gray-200">
