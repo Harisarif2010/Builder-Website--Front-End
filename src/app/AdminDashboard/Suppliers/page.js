@@ -47,6 +47,7 @@ const Suppliers = () => {
                           size={18}
                         />
                         <Image
+                          alt="greenfile"
                           src="/icons/greenfile.png"
                           width={16}
                           height={16}

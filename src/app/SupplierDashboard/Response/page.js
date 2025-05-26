@@ -108,7 +108,12 @@ const Response = () => {
             <label className="border  border-[var(--primary-border)] rounded-[11px] h-11 px-4 cursor-pointer flex flex-col  gap-4  bg-white hover:bg-gray-50 transition">
               <input type="file" className="hidden" />
               <div className="flex flex-row items-center justify-start">
-                <Image src="/icons/inquiry.png" width={36} height={36} />
+                <Image
+                  alt="aas"
+                  src="/icons/inquiry.png"
+                  width={36}
+                  height={36}
+                />
                 <span className="text-sm  text-[var(--primary-blue)] font-bold">
                   Attach File
                 </span>

@@ -3,7 +3,6 @@ import { ChevronDown, X } from "lucide-react";
 import { useState } from "react";
 
 export const DeclineModal = ({ isOpen, onClose }) => {
-  if (!isOpen) return null;
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState("Select");
   const options = [
@@ -17,7 +16,7 @@ export const DeclineModal = ({ isOpen, onClose }) => {
     setSelected(option);
     setOpen(false);
   };
-
+  if (!isOpen) return null;
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
       <div className="bg-white rounded-2xl w-full max-w-md p-6 relative my-5 h-64">

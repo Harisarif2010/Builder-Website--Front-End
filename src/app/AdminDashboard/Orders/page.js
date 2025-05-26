@@ -50,6 +50,7 @@ const Orders = () => {
                           size={18}
                         />
                         <Image
+                          alt="greenfiles"
                           src="/icons/greenfile.png"
                           width={16}
                           height={16}

@@ -37,7 +37,7 @@ const Privacy = () => {
             our platform, you agree to our Privacy Policy. You can review the
             full details by clicking the{" "}
             <span className="text-[var(--primary-blue)] underline cursor-pointer">
-              "Read Full Privacy Policy link."
+              &quot;Read Full Privacy Policy link.&quot;
             </span>
           </h3>
 

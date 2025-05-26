@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { useRouter } from "next//navigation";
+import { useRouter } from "next/navigation";
 import { orders } from "@/app/data";
 import { roboto } from "@/app/fonts";
 const page = () => {

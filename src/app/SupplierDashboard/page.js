@@ -285,10 +285,10 @@ const page = () => {
                     ) : (
                       <div className="flex justify-center rounded-lg bg-[#F11911] gap-x-1  ">
                         <Image
+                          alt="icon"
                           src="/icons/icon.svg"
                           width={11}
                           height={11}
-                          alt="icons"
                         />
                         <span className=" text-[#F4E7CC] border border-[#F11911] ">
                           Delayed

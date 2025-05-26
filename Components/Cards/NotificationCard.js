@@ -1,5 +1,6 @@
 "use client";
 import { poppins, roboto } from "@/app/fonts";
+import Image from "next/image";
 import React from "react";
 
 export default function NotificationCard({
@@ -55,7 +56,13 @@ export default function NotificationCard({
         style={{ backgroundColor: bgColor }}
         className="w-8 h-8 rounded-md flex items-center justify-center "
       >
-        <img src={iconUrl} alt="icon" className="w-5 h-5 object-contain" />
+        <Image
+          height={500}
+          width={500}
+          src={iconUrl}
+          alt="icon"
+          className="w-5 h-5 object-contain"
+        />
       </div>
     </div>
   );

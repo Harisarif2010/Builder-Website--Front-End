@@ -47,6 +47,7 @@ const Users = () => {
                           size={18}
                         />
                         <Image
+                          alt="greenfuile"
                           src="/icons/greenfile.png"
                           width={16}
                           height={16}
