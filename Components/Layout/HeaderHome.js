@@ -7,10 +7,11 @@ import { Bell, Globe } from "lucide-react";
 import CustomDropdown from "./custom-dropdown";
 import MobileDropdown from "./mobile-dropdown";
 import SearchBar from "../UI/SearchBar";
+import { useRouter } from "next/navigation";
 
 export default function HeaderHome() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  const router = useRouter();
   return (
     <header className="relative ">
       {/* Hero Background Image - Replace with your actual image */}
@@ -65,7 +66,12 @@ export default function HeaderHome() {
 
           {/* Right Side Icons */}
           <div className="flex items-center space-x-4">
-            <button className="flex items-center px-4 py-2 bg-white text-black rounded-[22px] border border-gray-300 hover:bg-gray-100 transition-colors">
+            <button
+              className="flex items-center px-4 py-2 bg-white text-black rounded-[22px] border border-gray-300 hover:bg-gray-100 transition-colors"
+              onClick={() => {
+                router.push("/auth/Login");
+              }}
+            >
               <span className="hidden sm:inline mr-1">Login</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

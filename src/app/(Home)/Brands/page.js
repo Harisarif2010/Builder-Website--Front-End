@@ -20,7 +20,7 @@ const Brands = () => {
           {" "}
           <SearchBar placeholder="Search Brands" />
         </div>
-        <div className="p-4 grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+        <div className="p-4 grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 my-3">
           {brands.map((product, index) => (
             <BrandCard key={index} title={product.name} image={product.image} />
           ))}

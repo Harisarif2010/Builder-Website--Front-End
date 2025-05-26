@@ -18,7 +18,7 @@ const Products = () => {
         {" "}
         <SearchBar placeholder="Search Products" />
       </div>
-      <div className="p-4 grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+      <div className="p-4 grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 my-3">
         {products.map((product, index) => (
           <ProductCard
             key={index}
