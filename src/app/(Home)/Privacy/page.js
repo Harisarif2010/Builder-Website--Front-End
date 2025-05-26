@@ -11,7 +11,7 @@ const Privacy = () => {
 
       <div className="bg-white w-full my-5">
         <div className=" px-4 sm:px-6   py-8">
-          <h1 className="text-[#000000] text-center font-bold text-3xl sm:text-4xl md:text-5xl p-3 mb-6">
+          <h1 className="text-[#000000] text-center font-bold text-3xl  md:text-4xl p-3 mb-6">
             Privacy Policy
           </h1>
 

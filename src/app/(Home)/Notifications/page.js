@@ -11,7 +11,7 @@ const Notifications = () => {
       />
       <div className="w-full bg-white p-3 my-3">
         {" "}
-        <h1 className=" text-[#000000] text-center font-bold text-5xl p-3 my-4">
+        <h1 className=" text-[#000000] text-center font-bold text-3xl md:text-4xl p-3 my-4">
           Notifications
         </h1>
         <div className="flex justify-center my-4">

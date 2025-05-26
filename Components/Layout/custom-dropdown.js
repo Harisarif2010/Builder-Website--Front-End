@@ -16,6 +16,7 @@ export default function CustomDropdown({ label, items, className = "" }) {
   const dropdownRef = useRef(null);
 
   const toggleDropdown = () => {
+    console.log("Dropdown clicked");
     setIsOpen(!isOpen);
   };
 
@@ -32,9 +33,9 @@ export default function CustomDropdown({ label, items, className = "" }) {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
-
+  console.log(items, "items");
   return (
-    <div className={`relative ${className} eounded-[13px]`} ref={dropdownRef}>
+    <div className={`relative ${className} rounded-[13px]`} ref={dropdownRef}>
       <button
         onClick={toggleDropdown}
         className="flex items-center text-white hover:text-gray-200 focus:outline-none"
@@ -58,7 +59,10 @@ export default function CustomDropdown({ label, items, className = "" }) {
                 href={item.href}
                 className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
                 role="menuitem"
-                onClick={() => setIsOpen(false)}
+                onClick={() => {
+                  console.log(isOpen, "is opne");
+                  setIsOpen(false);
+                }}
               >
                 {item.label}
               </Link>

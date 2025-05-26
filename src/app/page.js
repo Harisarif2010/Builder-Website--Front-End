@@ -26,7 +26,7 @@ export default function Home() {
     <>
       <HeaderHome />
       <div className="bg-white w-full">
-        <h1 className="text-center text-[#100F3D] text-4xl font-bold">
+        <h1 className="text-center text-[#100F3D] text-4xl font-bold my-3">
           Our Top Category
         </h1>
         <div className="flex flex-wrap justify-center gap-4 my-6">

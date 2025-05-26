@@ -10,10 +10,10 @@ const Products = () => {
         heading="Find the Best Building Materials for your Projects"
         text="Explore durable and cost - effective materials for your construction projects"
       />
-      <h1 className=" text-[#000000] text-center font-bold text-5xl p-3 my-4">
+      <h1 className=" text-[#000000] text-center font-bold text-3xl md:text-4xl p-3 my-4">
         Who we are
       </h1>
-      <div className="p-4 grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+      <div className="p-4 grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3  my-8">
         {featurePanels.map((feature, index) => (
           <ProductCard
             key={index}

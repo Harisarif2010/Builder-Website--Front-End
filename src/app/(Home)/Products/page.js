@@ -11,7 +11,7 @@ const Products = () => {
         heading="Find the Best Building Materials for your Projects"
         text="Explore durable and cost - effective materials for your construction projects"
       />
-      <h1 className=" text-[#000000] text-center font-bold text-5xl p-3 my-4">
+      <h1 className=" text-[#000000] text-center font-bold text-3xl md:text-4xl p-3 my-4">
         Products
       </h1>
       <div className="flex justify-center w-full">

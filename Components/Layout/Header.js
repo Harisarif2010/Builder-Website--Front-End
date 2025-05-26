@@ -51,7 +51,7 @@ export default function Header({ heading, text }) {
               label="Products"
               items={[
                 { label: "Products", href: "/Products" },
-                { label: "Brands", href: "/products/category2" },
+                { label: "Brands", href: "/Brands" },
               ]}
             />
             <Link href="/About" className="text-white hover:text-gray-200">
@@ -64,7 +64,7 @@ export default function Header({ heading, text }) {
 
           {/* Right Side Icons */}
           <div className="flex items-center space-x-4">
-            <button className="flex items-center px-4 py-2 bg-white text-black rounded-[22px] border border-gray-300 hover:bg-gray-100 transition-colors">
+            <button className="flex items-center px-4 py-2 gap-x-2 bg-white text-black rounded-[22px] border border-gray-300 hover:bg-gray-100 transition-colors md:h-10">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -82,9 +82,12 @@ export default function Header({ heading, text }) {
               </svg>
               <span className="hidden sm:inline mr-1">Login</span>
             </button>
-            <button className="text-white p-2 rounded-full hover:bg-white/10">
-              <Bell className="h-5 w-5" />
-            </button>
+            <div
+              className="w-8 h-8 flex items-center justify-center bg-[var(--primary-blue)] rounded-full"
+              onClick={() => router.push("Notifications")}
+            >
+              <Bell className="h-5 w-5 text-white" />
+            </div>
             <CustomDropdown
               label={<Globe className="h-5 w-5" />}
               items={[
@@ -150,9 +153,8 @@ export default function Header({ heading, text }) {
               <MobileDropdown
                 label="Products"
                 items={[
-                  { label: "Category 1", href: "/products/category1" },
-                  { label: "Category 2", href: "/products/category2" },
-                  { label: "Category 3", href: "/products/category3" },
+                  { label: "Products", href: "/Products" },
+                  { label: "Brands", href: "/Brands" },
                 ]}
                 onItemClick={() => setIsMenuOpen(false)}
               />

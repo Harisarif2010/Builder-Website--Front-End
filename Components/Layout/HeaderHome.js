@@ -56,6 +56,7 @@ export default function HeaderHome() {
                 { label: "Brands", href: "/Brands" },
               ]}
             />
+
             <Link href="/About" className="text-white hover:text-gray-200">
               About Us
             </Link>
@@ -90,8 +91,14 @@ export default function HeaderHome() {
               </svg>
             </button>
             <button className="text-white p-2 rounded-full hover:bg-white/10">
-              <Bell className="h-5 w-5" />
+              <div
+                className="w-8 h-8 flex items-center justify-center bg-[var(--primary-blue)] rounded-full"
+                onClick={() => router.push("Notifications")}
+              >
+                <Bell className="h-5 w-5 text-white" />
+              </div>
             </button>
+
             <CustomDropdown
               label={<Globe className="h-5 w-5" />}
               items={[
