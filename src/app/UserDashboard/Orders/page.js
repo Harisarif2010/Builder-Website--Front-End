@@ -12,7 +12,7 @@ const page = () => {
         <h2 className="text-sm md:text-[17px] font-bold mb-4">Orders Table</h2>
 
         <div className="overflow-x-auto">
-          <table className="min-w-[700px] w-full text-left text-sm text-[#000000]">
+          <table className="md:min-w-[700px] w-full text-left text-sm text-[#000000]">
             <thead className="border-b border-[#D2D2D2] text-[#8C8C8C] text-[11px] font-medium">
               <tr>
                 <th className="py-2 px-4 whitespace-nowrap">Quote ID</th>

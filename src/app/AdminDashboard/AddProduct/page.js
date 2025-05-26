@@ -7,13 +7,13 @@ const AddProduct = () => {
       {" "}
       <>
         <h3 className="text-[#3B4758] text-2xl font-bold px-3 flex flex-row items-center ">
-          Products Management
+          Add New Prodcut
         </h3>
-        <div className="bg-white rounded-[11x] p-5">
+        <div className="bg-white rounded-[22px] p-5">
           <div className="grid gap-x-4 sm:gap-x-5 gap-y-5 sm:gap-y-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">
             {/* Full Name */}
             <div className="flex flex-col">
-              <label className="text-black font-bold text-xs sm:text-xl md:text-[13px] mb-2 ml-1">
+              <label className="text-black font-boldtext-xs sm:text-xl md:text-[13px] mb-2 ml-1">
                 Product Name
               </label>
 

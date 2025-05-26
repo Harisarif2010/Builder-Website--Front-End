@@ -65,7 +65,7 @@ export default function HeaderHome() {
 
           {/* Right Side Icons */}
           <div className="flex items-center space-x-4">
-            <button className="flex items-center px-4 py-2 bg-white text-black rounded-md border border-gray-300 hover:bg-gray-100 transition-colors">
+            <button className="flex items-center px-4 py-2 bg-white text-black rounded-[22px] border border-gray-300 hover:bg-gray-100 transition-colors">
               <span className="hidden sm:inline mr-1">Login</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
