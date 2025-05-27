@@ -8,12 +8,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
-        <div className="flex">
+        <div className="flex bg-[#EEF0F4] dark:bg-black">
           {/* Sidebar */}
           <SupplierSidebar />
 
           {/* Main content */}
-          <div className="flex-1 flex flex-col min-h-screen bg-[#EEF0F4] dark:bg-black">
+          <div className="flex-1 flex flex-col min-h-screen ">
             {/* Topbar */}
             <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-3 p-3 mt-2 mx-3 bg-white rounded-[13px] h-auto">
               {/* Search input */}

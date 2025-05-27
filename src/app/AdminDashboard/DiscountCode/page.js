@@ -30,7 +30,7 @@ const Codes = () => {
               </thead>
 
               <tbody className="text-sm md:text-lg text-[#181818] font-medium">
-                <tr key={idx} className="hover:bg-gray-50">
+                <tr className="hover:bg-gray-50">
                   <td className="py-4 px-4 whitespace-nowrap">Summer 25</td>
                   <td className="py-4 px-4 whitespace-nowrap">Cement</td>
                   <td className="py-4 px-4 whitespace-nowrap">25%</td>

@@ -118,11 +118,20 @@ const CreateAd = () => {
             </label>
           </div>
         </div>
-        <div className=" w-full flex  justify-end my-4">
-          {/* Back Button */}
-          <button className=" bg-[var(--primary-blue)] text-white text-xl font-medium  px-6 py-3 rounded-[26px] h-14">
-            Save
-          </button>
+        <div className=" w-full flex justify-center my-3 md:justify-end md:items-end md:mt-12">
+          <div className=" w-full flex justify-center md:justify-end my-3 ">
+            {" "}
+            <div className="flex  gap-x-3">
+              <button className=" text-[var(--primary-blue)] bg-white text-lg md:text-2xl border border-[#A0A0A0] font-medium px-8 py-3 rounded-[26px] h-14">
+                Edit
+              </button>
+              <button className=" bg-[var(--primary-blue)] text-white text-lg md:text-2xl font-medium px-8 py-3 rounded-[26px] h-14">
+                Save
+              </button>
+
+              {/* Submit Button */}
+            </div>
+          </div>
         </div>
       </div>
     </div>
