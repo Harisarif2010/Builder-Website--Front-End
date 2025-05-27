@@ -4,19 +4,11 @@ import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { ChevronDown } from "lucide-react";
 
-/**
- * Custom dropdown component
- * @param {Object} props
- * @param {string} props.label - Dropdown label
- * @param {Array} props.items - Array of dropdown items with label and href
- * @param {string} props.className - Additional CSS classes
- */
 export default function CustomDropdown({ label, items, className = "" }) {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
 
   const toggleDropdown = () => {
-    console.log("Dropdown clicked");
     setIsOpen(!isOpen);
   };
 
@@ -33,7 +25,14 @@ export default function CustomDropdown({ label, items, className = "" }) {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
-  console.log(items, "items");
+
+  const handleLinkClick = () => {
+    // Delay to allow navigation
+    setTimeout(() => {
+      setIsOpen(false);
+    }, 100);
+  };
+
   return (
     <div className={`relative ${className} rounded-[13px]`} ref={dropdownRef}>
       <button
@@ -42,7 +41,7 @@ export default function CustomDropdown({ label, items, className = "" }) {
         aria-expanded={isOpen}
         aria-haspopup="true"
       >
-        {label}{" "}
+        {label}
         <ChevronDown
           className={`ml-1 h-4 w-4 transition-transform ${
             isOpen ? "rotate-180" : ""
@@ -54,17 +53,14 @@ export default function CustomDropdown({ label, items, className = "" }) {
         <div className="absolute mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
           <div className="py-1" role="menu" aria-orientation="vertical">
             {items.map((item, index) => (
-              <Link
-                key={index}
-                href={item.href}
-                className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
-                role="menuitem"
-                onClick={() => {
-                  console.log(isOpen, "is opne");
-                  setIsOpen(false);
-                }}
-              >
-                {item.label}
+              <Link key={index} href={item.href} legacyBehavior>
+                <a
+                  onClick={handleLinkClick}
+                  className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900"
+                  role="menuitem"
+                >
+                  {item.label}
+                </a>
               </Link>
             ))}
           </div>

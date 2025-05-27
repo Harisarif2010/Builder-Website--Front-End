@@ -71,7 +71,7 @@ const Orders = () => {
               Send to All Supplier
             </button>
             <button className=" bg-[var(--primary-blue)] text-white text-[13px] font-medium px-6 py-3 rounded-[22px] h-11">
-              Assign Order
+              Submit
             </button>
 
             {/* Submit Button */}

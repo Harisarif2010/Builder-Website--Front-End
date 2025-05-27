@@ -52,8 +52,8 @@ export default function HeaderHome() {
             <CustomDropdown
               label="Products"
               items={[
-                { label: "Products", href: "/Products" },
                 { label: "Brands", href: "/Brands" },
+                { label: "Products", href: "/Products" },
               ]}
             />
 

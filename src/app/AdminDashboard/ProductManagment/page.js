@@ -64,7 +64,7 @@ const ProductManagment = () => {
                         size={18}
                         className=" text-[var(--primary-blue)]"
                         onClick={() =>
-                          router.push("/SupplierDashboard/EditProdcut")
+                          router.push("/AdminDashboard/EditProdcut")
                         }
                       />
                       <Trash2

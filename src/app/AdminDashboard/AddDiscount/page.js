@@ -4,7 +4,7 @@ import { roboto } from "@/app/fonts";
 import { ChevronDown } from "lucide-react";
 import Image from "next/image";
 
-const AddProduct = () => {
+const AddDiscount = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [selected, setSelected] = useState("Marked");
   const options = ["Shipped", "Delivered", "Cancel"];
@@ -18,49 +18,28 @@ const AddProduct = () => {
       {" "}
       <>
         <h3 className="text-[#3B4758] text-2xl font-bold px-3 flex flex-row items-center ">
-          Prodcuts Managment
+          Offers Managment
         </h3>
         <div className="bg-white rounded-[22px] p-5">
+          <h3 className="my-3 text-black text-base md:text-[22px] font-bold">
+            Create Discount Code
+          </h3>
           <div className="grid gap-x-4 sm:gap-x-5 gap-y-5 sm:gap-y-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-2">
             {/* Full Name */}
             <div className="flex flex-col">
               <label className="text-black font-bold   md:text-[13px] mb-2 ml-1">
-                Product Name
+                Discount Name
               </label>
 
               <input
                 type="text"
                 className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
-                placeholder="Enter Product Name"
+                placeholder="Add Name"
               />
             </div>
             <div className="flex flex-col">
               <label className="text-black font-bold  md:text-[13px] mb-2 ml-1">
-                Density
-              </label>
-
-              <input
-                type="text"
-                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
-                placeholder="Enter density"
-              />
-            </div>
-            {/* Company Name (Optional) */}
-            <div className="flex flex-col">
-              <label className="text-black font-bold  md:text-[13px] mb-2 ml-1">
-                Size
-              </label>
-
-              <input
-                type="text"
-                className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
-                placeholder="Enter Size"
-              />
-            </div>
-            {/* Email Address */}
-            <div className="flex flex-col">
-              <label className="text-black font-bold  md:text-[13px] mb-2 ml-1">
-                Brand
+                Category Selection
               </label>
               <div className="relative inline-block text-left">
                 {/* Dropdown Button */}
@@ -93,71 +72,32 @@ const AddProduct = () => {
             </div>
             <div className="flex flex-col">
               <label className="text-black font-bold   md:text-[13px] mb-2 ml-1">
-                Weight
+                Discount Percentage
               </label>
 
               <input
                 type="text"
                 className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
-                placeholder="Enter Weight"
+                placeholder="Enter percentage"
               />
             </div>
             <div className="flex flex-col">
               <label className="text-black font-bold  md:text-[13px] mb-2 ml-1">
-                Stock
+                Expiration Date
               </label>
 
               <input
-                type="text"
+                type="date"
                 className="w-full border  border-[var(--primary-border)] rounded-[11px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#989898]"
-                placeholder="Enter stock"
+                placeholder="01/01/2025"
               />
-            </div>
-            <div className="mt-4">
-              <label
-                htmlFor="detail"
-                className="text-[13px] text-black font-bold mb-2 ml-1"
-              >
-                Detail
-              </label>
-              <textarea
-                id="detail"
-                name="detail"
-                placeholder="Enter Here"
-                className="w-full px-4 h-36 border border-[var(--primary-border)] rounded-[11px] placeholder-[#989898]"
-                required
-              />
-            </div>
-
-            <div className="flex flex-col mt-3">
-              <label className="text-[#000000] font-bold text-[13px] mb-2 ml-1">
-                Upload Product Image
-              </label>
-              <label className="w-full h-36 px-4 border border-[var(--primary-border)] rounded-[11px] cursor-pointer flex items-center justify-center bg-white hover:bg-gray-50 transition">
-                <input type="file" className="hidden" />
-                <Image
-                  src="/icons/upload.png"
-                  width={60}
-                  height={60}
-                  alt="Upload"
-                  className="p-2"
-                />
-              </label>
             </div>
           </div>
-          <div className=" w-full flex justify-center md:justify-end ">
-            {" "}
-            <div className="flex   mt-10 gap-x-3">
-              {/* Back Button */}
-              <button className="bg-[white]  text-[var(--primary-blue)] text-lg font-medium px-8 py-3 border border-[var(--primary-blue)] rounded-[22px] h-14">
-                Add More
-              </button>
-              <button className=" bg-[var(--primary-blue)] text-white text-lg font-medium px-8 py-3 rounded-[22px] h-14">
-                Submit
-              </button>
 
-              {/* Submit Button */}
-            </div>
+          <div className=" w-full flex justify-center md:justify-end my-3 md:mt-16 ">
+            <button className=" bg-[var(--primary-blue)] text-white text-lg md:text-2xl font-medium px-8 py-3 rounded-[26px] h-14">
+              Save
+            </button>
           </div>
         </div>
       </>
@@ -165,4 +105,4 @@ const AddProduct = () => {
   );
 };
 
-export default AddProduct;
+export default AddDiscount;
