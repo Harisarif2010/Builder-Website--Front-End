@@ -1,7 +1,7 @@
-import { Pen } from "lucide-react";
+import { Pencil } from "lucide-react";
 import Image from "next/image";
 import React from "react";
-import { roboto } from "@/app/fonts";
+import { roboto, poppins } from "@/app/fonts";
 
 const Profile = () => {
   return (
@@ -27,7 +27,7 @@ const Profile = () => {
                 placeholder="Enter company name"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-                <Pen color="#989898" />
+                <Pencil color="#989898" />
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ const Profile = () => {
                 placeholder="Enter company email"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-                <Pen color="#989898" />
+                <Pencil color="#989898" />
               </div>
             </div>
           </div>
@@ -59,7 +59,7 @@ const Profile = () => {
                 placeholder="Confirm your password"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-                <Pen color="#989898" />
+                <Pencil color="#989898" />
               </div>
             </div>
           </div>
@@ -75,7 +75,7 @@ const Profile = () => {
                 placeholder="Enter company email"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-                <Pen color="#989898" />
+                <Pencil color="#989898" />
               </div>
             </div>
           </div>
@@ -91,7 +91,7 @@ const Profile = () => {
                 placeholder="Confirm your password"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-                <Pen color="#989898" />
+                <Pencil color="#989898" />
               </div>
             </div>
           </div>
@@ -107,7 +107,7 @@ const Profile = () => {
                 placeholder="Enter your city"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-                <Pen color="#989898" />
+                <Pencil color="#989898" />
               </div>
             </div>
           </div>
@@ -122,7 +122,7 @@ const Profile = () => {
                 placeholder="Enter your city"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-                <Pen color="#989898" />
+                <Pencil color="#989898" />
               </div>
             </div>
           </div>
@@ -138,7 +138,7 @@ const Profile = () => {
                 placeholder="Enter your city"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-                <Pen color="#989898" />
+                <Pencil color="#989898" />
               </div>
             </div>
           </div>
@@ -194,7 +194,9 @@ const Profile = () => {
             </label>
           </div>
           <div className="flex flex-col justify-end items-end ">
-            <button className=" bg-[var(--primary-blue)] text-white text-[24px] font-semibold px-4 py-3 rounded-[26px] h-14">
+            <button
+              className={` bg-[var(--primary-blue)] text-white text-[24px] font-semibold px-4 py-3 rounded-[26px] h-14 ${poppins.variable}`}
+            >
               Send
             </button>
           </div>

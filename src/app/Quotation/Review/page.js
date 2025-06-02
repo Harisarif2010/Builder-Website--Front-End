@@ -1,4 +1,4 @@
-import { Pen } from "lucide-react";
+import { Pencil } from "lucide-react";
 import React from "react";
 
 const Review = () => {
@@ -20,7 +20,7 @@ const Review = () => {
               placeholder="Enter company name"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-              <Pen color="#585858" />
+              <Pencil color="#585858" />
             </div>
           </div>
         </div>
@@ -36,7 +36,7 @@ const Review = () => {
               placeholder="Enter company email"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-              <Pen color="#585858" />
+              <Pencil color="#585858" />
             </div>
           </div>
         </div>
@@ -52,7 +52,7 @@ const Review = () => {
               placeholder="Confirm your password"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-              <Pen color="#585858" />
+              <Pencil color="#585858" />
             </div>
           </div>
         </div>
@@ -68,7 +68,7 @@ const Review = () => {
               placeholder="Enter company email"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-              <Pen color="#585858" />
+              <Pencil color="#585858" />
             </div>
           </div>
         </div>
@@ -84,7 +84,7 @@ const Review = () => {
               placeholder="Confirm your password"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-              <Pen color="#585858" />
+              <Pencil color="#585858" />
             </div>
           </div>
         </div>
@@ -100,7 +100,7 @@ const Review = () => {
               placeholder="Enter your city"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-              <Pen color="#585858" />
+              <Pencil color="#585858" />
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@ const Review = () => {
               placeholder="Enter your city"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-              <Pen color="#585858" />
+              <Pencil color="#585858" />
             </div>
           </div>
         </div>
@@ -131,7 +131,7 @@ const Review = () => {
               placeholder="Enter your city"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-              <Pen color="#585858" />
+              <Pencil color="#585858" />
             </div>
           </div>
         </div>
@@ -146,7 +146,7 @@ const Review = () => {
               placeholder="Enter your city"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-              <Pen color="#585858" />
+              <Pencil color="#585858" />
             </div>
           </div>
         </div>{" "}
@@ -161,7 +161,7 @@ const Review = () => {
               placeholder="Enter your city"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-              <Pen color="#585858" />
+              <Pencil color="#585858" />
             </div>
           </div>
         </div>
@@ -176,7 +176,7 @@ const Review = () => {
               placeholder="Enter your city"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-              <Pen color="#585858" />
+              <Pencil color="#585858" />
             </div>
           </div>
         </div>

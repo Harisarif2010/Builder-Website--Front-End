@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { poppins } from "@/app/fonts";
 import React from "react";
 
 const Track = () => {
@@ -87,7 +87,9 @@ const Track = () => {
         </div>
 
         <div className="flex justify-center mt-10 sm:justify-end">
-          <button className=" bg-[var(--primary-blue)] text-white text-[24px] font-semibold px-4 py-3 rounded-[26px] h-14 w-28">
+          <button
+            className={` bg-[var(--primary-blue)] text-white text-[24px] font-semibold px-4 py-3 rounded-[26px] h-14 w-28 ${poppins.variable}`}
+          >
             Send
           </button>
         </div>

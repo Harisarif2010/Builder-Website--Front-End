@@ -37,8 +37,8 @@ export default function HeaderHome() {
               <Image
                 src="/images/logo.svg"
                 alt="Logo"
-                width={40}
-                height={40}
+                width={80}
+                height={80}
                 className="object-contain"
               />
             </div>
@@ -68,12 +68,11 @@ export default function HeaderHome() {
           {/* Right Side Icons */}
           <div className="flex items-center space-x-4">
             <button
-              className="flex items-center px-4 py-2 bg-white text-black rounded-[22px] border border-gray-300 hover:bg-gray-100 transition-colors"
+              className="flex gap-x-1 items-center px-4 py-2 h-10 bg-white text-black rounded-[22px] border border-gray-300 hover:bg-gray-100 transition-colors"
               onClick={() => {
                 router.push("/auth/Login");
               }}
             >
-              <span className="hidden sm:inline mr-1">Login</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -89,6 +88,9 @@ export default function HeaderHome() {
                 <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
                 <circle cx="12" cy="7" r="4" />
               </svg>
+              <span className="hidden sm:inline mr-1 text-[#2E2E2E]">
+                Login
+              </span>
             </button>
             <button className="text-white p-2 rounded-full hover:bg-white/10">
               <div

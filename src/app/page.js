@@ -205,7 +205,7 @@ export default function Home() {
             {index + 1} of {testimonials.length}
           </p>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 my-3">
             <button
               onClick={prev}
               disabled={index === 0}

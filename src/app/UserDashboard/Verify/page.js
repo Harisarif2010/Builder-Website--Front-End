@@ -36,7 +36,7 @@ const Verify = () => {
         </div>
         <div className=" w-full flex justify-center  md:justify-end ">
           {" "}
-          <div className="flex   mt-10 gap-x-3">
+          <div className={`flex   mt-10 gap-x-3 ${poppins.variable}`}>
             {/* Back Button */}
             <button className="bg-[#D60A0A] text-white text-[20px] font-semibold px-6 py-3 rounded-[31px] h-14">
               Delete Account

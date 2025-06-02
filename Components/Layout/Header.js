@@ -35,8 +35,8 @@ export default function Header({ heading, text }) {
               <Image
                 src="/images/logo.svg"
                 alt="Logo"
-                width={40}
-                height={40}
+                width={80}
+                height={80}
                 className="object-contain"
               />
             </div>
@@ -80,16 +80,18 @@ export default function Header({ heading, text }) {
                 <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
                 <circle cx="12" cy="7" r="4" />
               </svg>
-              <span className="hidden sm:inline mr-1">Login</span>
+              <span className="hidden sm:inline mr-1 text-[#2E2E2E]">
+                Login
+              </span>
             </button>
             <div
               className="w-8 h-8 flex items-center justify-center bg-[var(--primary-blue)] rounded-full"
-              onClick={() => router.push("Notifications")}
+              onClick={() => router.push("/Notifications")}
             >
               <Bell className="h-5 w-5 text-white" />
             </div>
             <CustomDropdown
-              label={<Globe className="h-5 w-5" />}
+              label={<Globe className="h-5 w-5  " />}
               items={[
                 { label: "English", href: "#english" },
                 { label: "العربية", href: "#arabic" },

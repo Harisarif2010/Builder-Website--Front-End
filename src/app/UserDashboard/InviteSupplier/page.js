@@ -1,4 +1,5 @@
-import { Pen } from "lucide-react";
+import { poppins } from "@/app/fonts";
+import { Pencil } from "lucide-react";
 import React from "react";
 
 const Supplier = () => {
@@ -21,7 +22,7 @@ const Supplier = () => {
                 placeholder="Enter company name"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-                <Pen color="#989898" />
+                <Pencil color="#989898" />
               </div>
             </div>
           </div>
@@ -36,7 +37,7 @@ const Supplier = () => {
                 placeholder="Enter your city"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-                <Pen color="#989898" />
+                <Pencil color="#989898" />
               </div>
             </div>
           </div>
@@ -52,7 +53,7 @@ const Supplier = () => {
                 placeholder="Confirm your password"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-                <Pen color="#989898" />
+                <Pencil color="#989898" />
               </div>
             </div>
           </div>
@@ -68,7 +69,7 @@ const Supplier = () => {
                 placeholder="Enter company email"
               />
               <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
-                <Pen color="#989898" />
+                <Pencil color="#989898" />
               </div>
             </div>
           </div>
@@ -77,7 +78,9 @@ const Supplier = () => {
           {/* City (Input instead of Select) */}
         </div>
         <div className="flex flex-row justify-center md:justify-end mt-14">
-          <button className="bg-[var(--secondary-blue)] text-white text-[16px] font-bold px-3 py-3 rounded-[22px] h-12 w-38">
+          <button
+            className={`bg-[var(--secondary-blue)] text-white text-[16px] font-bold px-3 py-3 rounded-[22px] h-12 w-38 ${poppins.variable}`}
+          >
             Send Invite
           </button>
         </div>
