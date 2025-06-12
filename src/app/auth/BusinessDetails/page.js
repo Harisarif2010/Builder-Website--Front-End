@@ -1,8 +1,11 @@
-import { ArrowLeft } from "lucide-react";
+"use client";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import Image from "next/image";
 import React from "react";
+import { useRouter } from "next/navigation";
 
 const BusinessDetails = () => {
+  const router = useRouter();
   return (
     <div className="p-8">
       <h1 className="text-5xl font-bold text-[#000000] mb-8">
@@ -133,21 +136,22 @@ const BusinessDetails = () => {
           </label>
         </div>
       </div>
-      {/* Footer Buttons */}\{" "}
-      <div className="w-full flex justify-around items-center my-8">
+      <div className="w-full flex justify-between items-center my-8 px-2">
         {/* Left Side: Back + Text */}
         <div className="flex items-center gap-3">
-          <button className="bg-blue-600 text-white text-base sm:text-lg md:text-xl font-semibold w-full sm:w-auto px-4 py-2 sm:px-6 sm:py-3 rounded-full flex items-center gap-2 justify-center">
-            Back <ArrowLeft color="white" />
+          <button className=" bg-[var(--primary-blue)] text-white text-[26px] font-semibold px-3   rounded-[18px] h-15 flex items-center cursor-pointer ">
+            <ArrowLeft color="white" />
+            Back
           </button>
           <span className="text-[var(--grey-text)] text-lg font-medium">
             ( Return to Step 1 )
           </span>
         </div>
-
-        {/* Right Side: Submit */}
-        <button className=" bg-[var(--primary-blue)] text-white text-[20px] font-semibold px-6 py-3 rounded-[18px] h-14 w-1/12">
-          Submit
+        <button
+          className=" bg-[var(--primary-blue)] text-white text-[26px] font-semibold px-3   rounded-[18px] h-15 flex items-center cursor-pointer "
+          onClick={router.push("/auth/SupplierVerify")}
+        >
+          Next <ArrowRight size={25} className="ml-1" />
         </button>
       </div>
     </div>

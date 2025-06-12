@@ -16,7 +16,7 @@ const Review = () => {
           <div className="relative w-full">
             <input
               type="text"
-              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
+              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-15 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
               placeholder="Enter company name"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -32,7 +32,7 @@ const Review = () => {
           <div className="relative w-full">
             <input
               type="email"
-              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
+              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-15 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
               placeholder="Enter company email"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -48,7 +48,7 @@ const Review = () => {
           <div className="relative w-full">
             <input
               type="password"
-              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
+              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-15 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
               placeholder="Confirm your password"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -64,7 +64,7 @@ const Review = () => {
           <div className="relative w-full">
             <input
               type="email"
-              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
+              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-15 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
               placeholder="Enter company email"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -80,7 +80,7 @@ const Review = () => {
           <div className="relative w-full">
             <input
               type="password"
-              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
+              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-15 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
               placeholder="Confirm your password"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -96,7 +96,7 @@ const Review = () => {
           <div className="relative w-full">
             <input
               type="text"
-              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
+              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-15 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
               placeholder="Enter your city"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -111,7 +111,7 @@ const Review = () => {
           <div className="relative w-full">
             <input
               type="text"
-              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
+              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-15 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
               placeholder="Enter your city"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -127,7 +127,7 @@ const Review = () => {
           <div className="relative w-full">
             <input
               type="text"
-              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
+              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-15 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
               placeholder="Enter your city"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -142,7 +142,7 @@ const Review = () => {
           <div className="relative w-full">
             <input
               type="text"
-              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
+              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-15 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
               placeholder="Enter your city"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -157,7 +157,7 @@ const Review = () => {
           <div className="relative w-full">
             <input
               type="text"
-              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
+              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-15 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
               placeholder="Enter your city"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -172,7 +172,7 @@ const Review = () => {
           <div className="relative w-full">
             <input
               type="text"
-              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-14 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
+              className="w-full border  border-[var(--secondary-border)] rounded-[31px] h-10 sm:h-12 md:h-15 px-4 sm:px-5 pr-10 text-sm sm:text-base placeholder-[#A8A8A8]"
               placeholder="Enter your city"
             />
             <div className="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none">
@@ -185,7 +185,7 @@ const Review = () => {
         {/* Left Side: Back + Text */}
 
         {/* Right Side: Submit */}
-        <button className=" bg-[var(--primary-blue)] text-white text-[20px] font-semibold px-6 py-3 rounded-[18px] h-14 ">
+        <button className=" bg-[var(--primary-blue)] text-white text-[26px] font-semibold px-5 py-2 rounded-[22px] h-25">
           Submit Request
         </button>
       </div>

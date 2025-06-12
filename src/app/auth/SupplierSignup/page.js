@@ -3,10 +3,11 @@ import React from "react";
 import StepProgress from "../../../../Components/UI/StepProgress";
 import { ArrowRight } from "lucide-react";
 import PhoneInput from "react-phone-input-2";
-
 import "react-phone-input-2/lib/style.css";
+import { useRouter } from "next/navigation";
 
 const SupplierSignup = () => {
+  const router = useRouter();
   return (
     <div className="p-4 sm:p-6 md:p-8 max-w-7xl mx-auto">
       <h1 className="text-xl sm:text-2xl md:text-5xl font-bold text-black mb-6 sm:mb-8 text-center sm:text-left">
@@ -115,8 +116,11 @@ const SupplierSignup = () => {
         </div>
       </div>
 
-      <div className="w-full flex flex-col sm:flex-row justify-end items-center gap-4 mt-6 sm:mt-8">
-        <button className=" bg-[var(--primary-blue)] text-white text-[26px] font-semibold px-3   rounded-[18px] h-15 flex items-center ">
+      <div className="w-full flex flex-col sm:flex-row justify-end items-center gap-4 mt-6 sm:mt-8 my-3">
+        <button
+          className=" bg-[var(--primary-blue)] text-white text-[26px] font-semibold px-3   rounded-[18px] h-15 flex items-center cursor-pointer "
+          onClick={router.push("/auth/BusinessDetails")}
+        >
           Next <ArrowRight size={25} className="ml-1" />
         </button>
         <span className="text-gray-500 text-sm sm:text-base font-medium text-center sm:text-left">

@@ -6,9 +6,9 @@ const Footer = () => {
   return (
     <footer className="bg-[#070D30] px-4 md:px-8 pt-20 pb-6 text-white relative">
       {/* Social Media Section */}
-      <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 w-[90%] md:w-full max-w-7xl">
-        <div className=" bg-[var(--primary-blue)] bg-opacity-20 rounded-[35px] py-3 px-4 md:px-6 flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0">
-          <p className="text-sm font-medium text-center md:text-left">
+      <div className="absolute -top-8 left-1/2 transform -translate-x-1/2 w-[90%] md:w-full max-w-7xl ">
+        <div className=" bg-[var(--primary-blue)] bg-opacity-20 rounded-[35px]  py-5 px-4 md:px-6 flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0">
+          <p className="text-[26px] font-bold text-center md:text-left">
             Get Connected with us on Social media
           </p>
           <div className="flex gap-3 justify-center">
